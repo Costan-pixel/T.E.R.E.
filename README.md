@@ -4,7 +4,95 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TERE – Transfeminist Education on Relationships and Emotions</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/stile.css">
+    <style.css>
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fefefe;
+    color: #222;
+}
 
+/* Navbar */
+.navbar {
+    background-color: #333;
+    padding: 1em;
+}
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 1.5em;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+    position: relative;
+    text-align: center;
+}
+.hero img {
+    width: 100%;
+    height: auto;
+    max-height: 500px;
+    object-fit: cover;
+}
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2em;
+    border-radius: 10px;
+}
+.hero-text h1 {
+    font-size: 3em;
+    margin-bottom: 0.3em;
+}
+.hero-text p {
+    font-size: 1.5em;
+}
+
+/* Main content */
+.intro {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+}
+.intro h2 {
+    margin-top: 1.5em;
+    color: #b137a2;
+}
+.intro ul {
+    list-style-type: none;
+    margin-top: 1em;
+}
+.intro li {
+    margin: 0.5em 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #eee;
+    margin-top: 2em;
+}
+</style>
     <!-- Metadati Dublin Core -->
     <meta name="DC.title" content="TERE – Transfeminist Education on Relationships and Emotions">
     <meta name="DC.creator" content="Tuo Nome">
