@@ -41,13 +41,14 @@ body {
   height: 400px;
   background-image: url('https://i.pinimg.com/736x/f6/fb/0a/f6fb0ab7ecd1252fa67c58b2e9f65e58.jpg');
   background-size: cover;
-  background-position: center top; /* Mostra la parte superiore */
+  background-position: center top;
   background-repeat: no-repeat;
-  background-color: #f6e1ee;
-  margin-top: 70px; /* Per compensare la navbar fissa */
+  background-color: #f6e1ee; /* Sfondo laterale se serve */
+  margin-top: 70px; /* per la navbar */
   position: relative;
   overflow: hidden;
 }
+
 /* Testo sopra immagine */
 .hero-text {
   position: absolute;
