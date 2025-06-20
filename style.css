@@ -42,7 +42,7 @@ body {
   background-image: url('https://i.pinimg.com/736x/f6/fb/0a/f6fb0ab7ecd1252fa67c58b2e9f65e58.jpg');
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: cover;
+  background-size: cover; 
   background-color: #f6e1ee;
   position: relative;
   overflow: hidden;
@@ -54,11 +54,12 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
   text-align: center;
+  color: white;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   z-index: 10;
 }
+
 .hero-text h1 {
   font-size: 3em;
   margin-bottom: 0.3em;
