@@ -40,10 +40,10 @@ body {
   width: 100%;
   height: 550px;
   background-image: url('https://i.pinimg.com/736x/f6/fb/0a/f6fb0ab7ecd1252fa67c58b2e9f65e58.jpg');
-  background-color: #f6e1ee; /* rosa chiaro ai lati */
+  background-color: #f6e1ee; 
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: auto 150%; /* aumenta l’altezza ma non la larghezza */
+  background-size: auto 150%; 
   position: relative;
   overflow: hidden;
 }
@@ -56,7 +56,7 @@ body {
   transform: translate(-50%, -50%);
   text-align: center;
   color: white;
-  background-color: rgba(0, 0, 0, 0.6); /* nero semi-trasparente */
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 1.5em 2em;
   border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
