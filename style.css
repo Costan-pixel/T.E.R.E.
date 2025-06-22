@@ -42,8 +42,8 @@ body {
   background-color: #f6e1ee;
   background-image: url('https://i.pinimg.com/736x/f6/fb/0a/f6fb0ab7ecd1252fa67c58b2e9f65e58.jpg');
   background-repeat: no-repeat;
-  background-size: 140% auto; /* aumenta rispetto a contain, ma non esagera */
-  background-position: center top; /* mostra metà superiore */
+  background-size: 150% auto;
+  background-position: center top;
   position: relative;
   display: flex;
   align-items: center;
