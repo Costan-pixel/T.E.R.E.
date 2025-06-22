@@ -40,14 +40,12 @@ body {
   width: 100%;
   height: 600px;
   background-image: url('https://i.pinimg.com/736x/f6/fb/0a/f6fb0ab7ecd1252fa67c58b2e9f65e58.jpg');
+  background-color: #f6e1ee; /* rosa chiaro ai lati */
   background-repeat: no-repeat;
   background-position: center top;
-  background-size: contain; /* evita sgranature */
-  background-color: #f6e1ee; /* rosa chiaro */
+  background-size: auto 150%; /* aumenta l’altezza ma non la larghezza */
   position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  overflow: hidden;
 }
 
 /* Testo sopra immagine */
