@@ -57,10 +57,11 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.6); /* sfondo scuro semitrasparente */
-  padding: 2.5em 3em; /* aumenta spazio interno */
-  border-radius: 20px;
-  color: #f6e1ee; /* colore testo rosa chiaro coerente con il tema */
+  background-color: rgba(0, 0, 0, 0.6); 
+  background-position: center;
+  padding: 2em 2.5em; 
+  border-radius: 17px;
+  color: #f6e1ee; 
   max-width: 90%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
