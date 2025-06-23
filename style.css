@@ -6,8 +6,10 @@ body, h1, h2, p, ul {
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #fefefe;
+  background-color: #eac1dc;
   color: #222;
+  margin: 0;
+  padding: 0;
 }
 
 /* Navbar */
@@ -77,9 +79,6 @@ body {
   padding: 2em;
   max-width: 800px;
   margin: auto;
-  background-color: #fbeaf3;
-  border-radius: 16px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 .intro h2 {
   margin-top: 3em;
