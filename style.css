@@ -45,7 +45,7 @@ body {
   background-color: #f6e1ee;
   background-repeat: repeat-3;
   background-position: top center; 
-  background-size: cover; 
+  background-size: auto 100%; 
   position: relative;
   overflow: hidden;
   display: flex;
