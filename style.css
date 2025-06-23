@@ -42,8 +42,8 @@ body {
   background-image: url('https://i.pinimg.com/736x/f6/fb/0a/f6fb0ab7ecd1252fa67c58b2e9f65e58.jpg');
   background-color: #f6e1ee; 
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: auto 160%; 
+  background-position: center top;
+  background-size: auto 150%; 
   position: relative;
   overflow: hidden;
 }
@@ -55,8 +55,8 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
-  color: #3c003c; /* un prugna intenso, elegante e leggibile */
-  background-color: rgba(255, 245, 250, 0.7); /* sfondo rosa chiaro semi-trasparente */
+  color: #3c003c; 
+  background-color: rgba(255, 245, 250, 0.7); 
   padding: 1em 2em;
   border-radius: 20px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
