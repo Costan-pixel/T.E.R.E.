@@ -42,12 +42,15 @@ body {
   width: 100%;
   height: 100vh;
   background-image: url('https://i.pinimg.com/736x/f6/fb/0a/f6fb0ab7ecd1252fa67c58b2e9f65e58.jpg');
-  background-color: #f6e1ee; 
+  background-color: #f6e1ee;
   background-repeat: repeat-3;
-  background-position: bottom;
-  background-size: auto 110%; 
+  background-position: top center; 
+  background-size: cover; 
   position: relative;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /* Testo sopra immagine */
