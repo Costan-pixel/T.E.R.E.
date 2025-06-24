@@ -57,13 +57,13 @@ body {
 
 /* Testo sopra immagine */
 .hero-text {
-  text-align: center;
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 0.7em 3em;
+  padding: 1.2em 3em;
   border-radius: 15px;
   max-width: 80%;
   width: fit-content;
   color: white;
+  text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   z-index: 10;
 }
