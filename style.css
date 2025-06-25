@@ -39,11 +39,11 @@ body {
 /* Hero */
 .hero {
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh + 1.3em); /* include navbar height */
   background-image: url(https://github.com/Costan-pixel/T.E.R.E./blob/main/hero.jpg?raw=true);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: contain;
+  background-size: cover;
   background-color: #f6e1ee;
 
   display: flex;
@@ -52,17 +52,7 @@ body {
 
   position: relative;
   overflow: hidden;
-
-  padding-top: 90px;
   box-sizing: border-box;
-}
-
-/* Responsive mobile */
-@media (max-width: 768px) {
-  .hero {
-    background-size: cover;
-    padding-top: 70px;
-  }
 }
 
 /* Testo sopra immagine */
@@ -76,6 +66,7 @@ body {
   text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   z-index: 10;
+  margin-top: 2em;
 }
 
 .hero-text h1 {
