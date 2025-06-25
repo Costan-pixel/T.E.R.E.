@@ -8,8 +8,6 @@ body {
   line-height: 1.6;
   background-color: #eac1dc;
   color: #222;
-  margin: 0;
-  padding: 0;
 }
 
 /* Navbar */
@@ -38,7 +36,7 @@ body {
   text-decoration: underline;
 }
 
-/* Hero section */
+/* Hero */
 .hero {
   width: 100vw;
   height: 100vh;
@@ -47,18 +45,23 @@ body {
   background-position: top center;
   background-size: contain;
   background-color: #f6e1ee;
+
   display: flex;
   justify-content: center;
   align-items: center;
+
   position: relative;
   overflow: hidden;
+
+  padding-top: 90px;
+  box-sizing: border-box;
 }
 
-/* Responsive override for small screens */
+/* Responsive mobile */
 @media (max-width: 768px) {
   .hero {
     background-size: cover;
-    background-position: top center;
+    padding-top: 70px;
   }
 }
 
