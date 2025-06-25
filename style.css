@@ -44,7 +44,7 @@ body {
   background-image: url(https://github.com/Costan-pixel/T.E.R.E./blob/main/hero.jpg?raw=true);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
   background-color: #f6e1ee;
   display: flex;
   justify-content: center;
