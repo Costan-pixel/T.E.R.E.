@@ -38,6 +38,7 @@ body {
   text-decoration: underline;
 }
 
+/* Hero section */
 .hero {
   width: 100vw;
   height: 100vh;
@@ -51,6 +52,14 @@ body {
   align-items: center;
   position: relative;
   overflow: hidden;
+}
+
+/* Responsive override for small screens */
+@media (max-width: 768px) {
+  .hero {
+    background-size: cover;
+    background-position: top center;
+  }
 }
 
 /* Testo sopra immagine */
