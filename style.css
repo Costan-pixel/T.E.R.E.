@@ -39,11 +39,11 @@ body {
 /* Hero */
 .hero {
   width: 100vw;
-  height: calc(100vh + 1.3em); /* include navbar height */
+  height: calc(100vh + 1.3em); 
   background-image: url(https://github.com/Costan-pixel/T.E.R.E./blob/main/hero.jpg?raw=true);
   background-repeat: no-repeat;
   background-position: top center;
-  background-size: cover;
+  background-size: contain;
   background-color: #f6e1ee;
 
   display: flex;
