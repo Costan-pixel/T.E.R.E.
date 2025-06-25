@@ -43,8 +43,8 @@ body {
   height: 100vh;
   background-image: url(https://github.com/Costan-pixel/T.E.R.E./blob/main/hero.jpg?raw=true);
   background-repeat: no-repeat;
-  background-position: top left;
-  background-size: calc(100vw / 3) auto;
+  background-position: center;
+  background-size: auto;
   background-color: #f6e1ee;
   display: flex;
   justify-content: center;
