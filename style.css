@@ -1,8 +1,48 @@
+/* Reset base */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #eac1dc;
+  color: #222;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  background-color: #333;
+  padding: 1.3em 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.navbar ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  gap: 3em;
+}
+.navbar li {
+  list-style: none;
+}
+.navbar a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+
 /* Hero */
 .hero {
   width: 100vw;
   height: 100vh;
-  background-image: url('/T.E.R.E./hero_anat/hero.jpg');
+  background-image: url('https://github.com/Costan-pixel/T.E.R.E./blob/main/hero.jpg?raw=true');
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -24,9 +64,45 @@
   padding: 1.2em 3em;
   border-radius: 15px;
   max-width: 80%;
-  width: fit-content;
   color: white;
   text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   z-index: 10;
+}
+
+.hero-text h1 {
+  font-size: 3.8em;
+  margin-bottom: 0.5em;
+  font-weight: bold;
+}
+
+.hero-text p {
+  font-size: 1.8em;
+  margin: 0;
+}
+
+/* Main content */
+.intro {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+.intro h2 {
+  margin-top: 3em;
+  color: #b137a2;
+}
+.intro ul {
+  list-style-type: none;
+  margin-top: 1em;
+}
+.intro li {
+  margin: 0.5em 0;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #eac1dc;
+  margin-top: 2em;
 }
