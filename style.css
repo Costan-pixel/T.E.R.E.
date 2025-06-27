@@ -87,7 +87,7 @@ body {
 }
 .intro h2,
 .intro ul li a {
-  color: #d63b7a; /* oppure uno degli altri colori proposti */
+  color: color: #e66a6a;
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
 }
