@@ -4,6 +4,7 @@ body, h1, h2, p, ul {
   padding: 0;
 }
 body {
+  overflox-x: hidden
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #eac1dc;
@@ -40,8 +41,8 @@ body {
 
 /* Hero */
 .hero {
-  width: 100vw;
-  height: 600px;
+  width: 100%;
+  height: 100vh;
   background-image: url('https://github.com/Costan-pixel/T.E.R.E./blob/main/hero.jpg?raw=true');
   background-repeat: no-repeat;
   background-position: top center;
