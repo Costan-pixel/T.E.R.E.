@@ -41,7 +41,7 @@ body {
 /* Hero */
 .hero {
   width: 100vw;
-  height: 100vh;
+  height: 600px;
   background-image: url('https://github.com/Costan-pixel/T.E.R.E./blob/main/hero.jpg?raw=true');
   background-repeat: no-repeat;
   background-position: top center;
@@ -52,7 +52,7 @@ body {
   justify-content: center;
   align-items: center;
 
-  margin-top: 50px; 
+  margin-top: 60px; 
   box-sizing: border-box;
   position: relative;
   overflow: hidden;
