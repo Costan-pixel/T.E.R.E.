@@ -1,11 +1,8 @@
 /* Reset base */
 * {
-  box-sizing: border-box;
-}
-
-body, h1, h2, p, ul {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -28,12 +25,10 @@ body {
 }
 .navbar ul {
   display: flex;
-  list-style: none;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 3em;
-}
-.navbar li {
   list-style: none;
+  gap: 3em;
 }
 .navbar a {
   color: whitesmoke;
@@ -50,90 +45,96 @@ body {
   height: 100vh;
   background-image: url('https://github.com/Costan-pixel/T.E.R.E./blob/main/hero.jpg?raw=true');
   background-repeat: no-repeat;
-  background-position: top center;
-  background-size: contain;
+  background-position: center top;
+  background-size: cover;
   background-color: #f6e1ee;
 
   display: flex;
   justify-content: center;
   align-items: center;
-
   margin-top: 65px;
   position: relative;
-  overflow: hidden;
 }
 
 /* Testo sopra immagine */
 .hero-text {
   background-color: rgba(0, 0, 0, 0.5);
-  padding: 1.2em 3em;
+  padding: 1.2em 2em;
   border-radius: 15px;
-  max-width: 80%;
-  color: white;
+  max-width: 90%;
+  color: #fff;
   text-align: center;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
   z-index: 10;
 }
 
 .hero-text h1 {
-  font-size: 3.8em;
-  margin-bottom: 0.5em;
+  font-size: 3.5em;
   font-weight: bold;
+  margin-bottom: 0.3em;
 }
 
 .hero-text p {
-  font-size: 1.8em;
+  font-size: 1.6em;
   margin: 0;
 }
 
 /* Main content */
 .intro {
-  padding: 2em;
-  max-width: 800px;
+  padding: 3em 1em 2em;
+  max-width: 900px;
   margin: auto;
-  padding-top: 2em;
+  background-color: #f3d6ea;
+  border-radius: 20px;
 }
+
 .intro h2 {
-  margin-top: 3em;
-  color: #9a1c8b;
-  font-size: 2em;
+  margin-top: 2.5em;
   margin-bottom: 0.5em;
+  color: #a02884;
+  font-size: 2em;
 }
+
+.intro p {
+  font-size: 1.1em;
+  margin-bottom: 1.5em;
+}
+
 .intro ul {
   list-style-type: none;
-  margin-top: 1em;
+  padding-left: 0;
 }
 .intro li {
   margin: 0.5em 0;
-  font-size: 1.1em;
-  line-height: 1.7;
-  color: #4a4a4a;
+}
+.intro li a {
+  color: #7b1e6b;
+  font-weight: bold;
+  text-decoration: none;
+}
+.intro li a:hover {
+  text-decoration: underline;
 }
 
 /* Footer */
 footer {
   text-align: center;
-  padding: 1em;
+  padding: 1.5em 1em;
   background-color: #eac1dc;
-  margin-top: 2em;
+  font-size: 0.9em;
+  margin-top: 3em;
 }
 
-/* Responsive */
+/* Responsive tweaks */
 @media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2.2em;
+  }
+  .hero-text p {
+    font-size: 1.1em;
+  }
   .navbar ul {
     flex-direction: column;
     gap: 1em;
-  }
-
-  .hero-text h1 {
-    font-size: 2.5em;
-  }
-
-  .hero-text p {
-    font-size: 1.2em;
-  }
-
-  .intro {
-    padding: 1em;
   }
 }
