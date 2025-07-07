@@ -41,11 +41,11 @@ body {
 
 /* Hero */
 .hero {
-  width: 100%;
-  height: 600px;
+  width: 100vw;
+  height: calc(100vh - 65px);
   background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center center;
   background-size: cover;
   background-color: #f6e1ee;
 
@@ -54,6 +54,7 @@ body {
   align-items: center;
   margin-top: 65px;
   position: relative;
+  overflow: hidden;
 }
 
 /* Testo sopra immagine */
