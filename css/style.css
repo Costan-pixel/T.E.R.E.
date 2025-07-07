@@ -42,10 +42,10 @@ body {
 /* Hero */
 .hero {
   width: 100vw;
-  height: calc(100vh - 65px);
+  height: calc(100vh - 65px); 
   background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center top;
   background-size: cover;
   background-color: #f6e1ee;
 
