@@ -1,0 +1,127 @@
+/* Reset base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+  background-color: #eac1dc;
+  color: #3a3a3a;
+}
+
+/* Navbar */
+.navbar {
+  width: 100%;
+  background-color: #333;
+  padding: 1.3em 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+.navbar ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+  gap: 3em;
+}
+.navbar a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Hero */
+.hero {
+  width: 100%;
+  height: 600px;
+  background-image: url('https://raw.githubusercontent.com/Costan-pixel/T.E.R.E./main/hero.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-color: #f6e1ee;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65px;
+  position: relative;
+}
+
+/* Testo sopra immagine */
+.hero-text {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 1.2em 2em;
+  border-radius: 15px;
+  max-width: 90%;
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+
+.hero-text h1 {
+  font-size: 3.5em;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+
+.hero-text p {
+  font-size: 1.6em;
+  margin: 0;
+}
+
+/* Main content */
+.intro {
+  padding: 2em;
+  max-width: 800px;
+  margin: auto;
+}
+.intro h2,
+.intro ul li a {
+  color: #6f5aa7;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
+.intro ul {
+  list-style-type: none;
+  margin-top: 1em;
+}
+.intro li {
+  margin: 0.5em 0;
+}
+.intro ul li a:hover {
+  color: #b72f68;
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1.5em 1em;
+  background-color: #eac1dc;
+  font-size: 0.9em;
+  margin-top: 3em;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 2.2em;
+  }
+  .hero-text p {
+    font-size: 1.1em;
+  }
+  .navbar ul {
+    flex-direction: column;
+    gap: 1em;
+  }
+}
