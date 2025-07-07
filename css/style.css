@@ -103,6 +103,27 @@ body {
   color: #b72f68;
   text-decoration: underline;
 }
+.linguaggio-box {
+  background-color: #f6e1ee;
+  border-left: 4px solid #b72f68;
+  padding: 1.5em;
+  margin: 3em auto;
+  max-width: 900px;
+  border-radius: 12px;
+  font-size: 1em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.linguaggio-box h2 {
+  color: #6f5aa7;
+  margin-bottom: 0.6em;
+}
+.linguaggio-box a {
+  display: inline-block;
+  margin-top: 1em;
+  color: #b72f68;
+  font-weight: bold;
+  text-decoration: underline;
+}
 
 /* Footer */
 footer {
