@@ -12,6 +12,18 @@ body {
   background-color: #eac1dc;
   color: #3a3a3a;
 }
+/* Link globali */
+a {
+  color: #b72f68;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  color: #6f5aa7;
+  text-decoration: underline;
+}
 
 /* Navbar */
 .navbar {
