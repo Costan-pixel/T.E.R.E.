@@ -12,12 +12,26 @@ body {
   background-color: #eac1dc;
   color: #3a3a3a;
 }
+
 /* Link globali */
 a {
   color: #873260;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s ease-in-out;
+}
+
+/* Link nei testi (class="text-link") */
+.text-link {
+  color: #9966cc;
+  font-weight: 500;
+  text-decoration: underline dotted;
+  transition: color 0.2s ease-in-out;
+}
+
+.text-link:hover {
+  color: #6f5aa7;
+  text-decoration: underline;
 }
 
 a:hover {
