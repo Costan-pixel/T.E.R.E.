@@ -63,13 +63,15 @@ body {
   text-align: center;
 }
 
-.benvenuto {
-  font-size: 2.2em;
-  font-weight: 700;
-  margin-top: 1.2em;
-  margin-bottom: 1.2em;
-  text-align: center;
-  color: #4b004f;
+.benvenuto a {
+  text-decoration: underline dotted;
+  color: inherit;
+  font-weight: inherit;
+}
+
+.benvenuto a:hover {
+  color: #6f5aa7;
+  text-decoration: underline;
 }
 
 .intro p {
