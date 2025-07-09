@@ -86,7 +86,7 @@ a:hover {
   font-size: 0.9rem;
 }
 
-/* ACCESSIBILITÀ: label non visibile visivamente ma presente per screen reader */
+/* ACCESSIBILITÀ: label per screen reader */
 .sr-only {
   position: absolute;
   width: 1px;
