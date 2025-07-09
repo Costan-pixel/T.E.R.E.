@@ -129,59 +129,21 @@ a:hover {
   margin: 0.5em 0;
 }
 
-.intro ul li a:hover {
-  color: #b72f68;
-  text-decoration: underline;
-}
 .cosa-trovare {
-  padding: 3em 1em;
-  background-color: #fcecf4;
+  padding: 3em 2em;
+  background-color: #f6e1ee;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06); 
+  border-radius: 10px;
   text-align: center;
 }
 
-.cosa-trovare h2 {
-  font-size: 2em;
-  margin-bottom: 1.5em;
-  color: #6f5aa7;
-}
-
 .card-container {
+  max-width: 1200px; 
+  margin: auto;
   display: flex;
   flex-wrap: wrap;
   gap: 2em;
   justify-content: center;
-}
-
-.soft-card {
-  background-color: #fff;
-  border-radius: 20px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-  padding: 2em;
-  max-width: 300px;
-  flex: 1 1 250px;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.soft-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
-}
-
-.card-emoji {
-  font-size: 2.5em;
-  margin-bottom: 0.5em;
-}
-
-.soft-card h3 {
-  font-size: 1.3em;
-  margin-bottom: 0.7em;
-  color: #b72f68;
-}
-
-.soft-card p {
-  font-size: 0.95em;
-  line-height: 1.5;
-  color: #444;
 }
 
 .linguaggio-box {
