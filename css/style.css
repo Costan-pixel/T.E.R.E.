@@ -109,7 +109,7 @@ a:hover {
 /* Main content */
 .intro {
   padding: 2em;
-  max-width: 900px;
+  max-width: 950px;
   margin: auto;
 }
 
@@ -123,9 +123,11 @@ a:hover {
 .cosa-trovare {
   padding: 3em 2em;
   background-color: #f6e1ee;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
   text-align: center;
+  max-width: 1200px;
+  margin: 3em auto; /* Centra la sezione */
 }
 
 .card-container {
