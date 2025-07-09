@@ -146,6 +146,42 @@ a:hover {
   justify-content: center;
 }
 
+.soft-card {
+  background-color: #fff0f7; /* colore più visibile */
+  border-radius: 18px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+  padding: 1.5em 1.2em;
+  width: 28%;
+  min-width: 280px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.soft-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.card-emoji {
+  font-size: 2.2em;
+  margin-bottom: 0.4em;
+}
+
+.soft-card h3 {
+  font-size: 1.2em;
+  margin-bottom: 0.6em;
+  color: #b72f68;
+}
+
+.soft-card p {
+  font-size: 0.95em;
+  line-height: 1.4;
+  color: #3a3a3a;
+}
+
 .linguaggio-box {
   background-color: #f6e1ee;
   border-left: 4px solid #b72f68;
