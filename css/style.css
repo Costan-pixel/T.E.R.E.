@@ -83,7 +83,7 @@ a:hover {
   overflow: hidden;
 }
 
-/* Testo sopra immagine */
+/* Testo sopra immagine hero */
 .hero-text {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1.2em 2em;
@@ -109,7 +109,7 @@ a:hover {
 /* Main content */
 .intro {
   padding: 2em;
-  max-width: 1000px;
+  max-width: 950px;
   margin: auto;
 }
 
