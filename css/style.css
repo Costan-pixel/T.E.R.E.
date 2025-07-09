@@ -102,6 +102,7 @@ a:hover {
 .hero {
   width: 100vw;
   height: 100vh;
+  padding-top: 65px;
   background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-position: center top;
@@ -111,7 +112,6 @@ a:hover {
   justify-content: center;
   align-items: center;
   position: relative;
-  top: 65px; 
   overflow: hidden;
 }
 
