@@ -140,9 +140,9 @@ a:hover {
 
 /* INTRO SECTION */
 .intro {
-  padding: 2em 2em;
+  padding: 1.5em 2em;
   max-width: 950px;
-  margin: 2.5em auto 2em auto;
+  margin: 1.2em auto 1.5em auto;
   text-align: center;
 }
 
@@ -154,12 +154,12 @@ a:hover {
 }
 
 .benvenuto {
-  font-size: 2.2em;
-  font-weight: 700;
-  margin-top: 1.2em;
-  margin-bottom: 1.2em;
-  text-align: center;
+  font-size: 2.4em;
+  font-weight: 800;
+  margin-top: 1em;
+  margin-bottom: 0.6em;
   color: #4b004f;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.08);
 }
 
 /* SEZIONE: COSA TROVARE */
