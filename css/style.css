@@ -102,7 +102,8 @@ a:hover {
 /* HERO SECTION */
 .hero {
   width: 100vw;
-  height: calc(100vh - 65px);
+  height: 100vh;
+  padding-top: 65px; /* invece di margin-top */
   background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-position: center top;
@@ -111,7 +112,6 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 65px;
   position: relative;
   overflow: hidden;
 }
