@@ -1,4 +1,4 @@
-/* Reset base */
+/* RESET BASE */
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +13,7 @@ body {
   color: #3a3a3a;
 }
 
-/* Link globali */
+/* LINK GLOBALI */
 a {
   color: #873260;
   text-decoration: none;
@@ -21,7 +21,11 @@ a {
   transition: all 0.2s ease-in-out;
 }
 
-/* Link nei testi (class="text-link") */
+a:hover {
+  color: #6f5aa7;
+  text-decoration: underline;
+}
+
 .text-link {
   color: #9966cc;
   font-weight: 500;
@@ -34,12 +38,7 @@ a {
   text-decoration: underline;
 }
 
-a:hover {
-  color: #6f5aa7;
-  text-decoration: underline;
-}
-
-/* Navbar */
+/* NAVBAR */
 .navbar {
   width: 100%;
   background-color: #333;
@@ -49,6 +48,7 @@ a:hover {
   left: 0;
   z-index: 1000;
 }
+
 .navbar ul {
   display: flex;
   flex-wrap: wrap;
@@ -56,25 +56,26 @@ a:hover {
   list-style: none;
   gap: 3em;
 }
+
 .navbar a {
   color: whitesmoke;
   text-decoration: none;
   font-weight: bold;
 }
+
 .navbar a:hover {
   text-decoration: underline;
 }
 
-/* Hero */
+/* HERO SECTION */
 .hero {
   width: 100vw;
-  height: calc(100vh - 65px); 
+  height: calc(100vh - 65px);
   background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
   background-color: #f6e1ee;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +84,6 @@ a:hover {
   overflow: hidden;
 }
 
-/* Testo sopra immagine hero */
 .hero-text {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 1.2em 2em;
@@ -106,11 +106,12 @@ a:hover {
   margin: 0;
 }
 
-/* Main content */
+/* INTRO SECTION (contenuto centrale con benvenuto) */
 .intro {
-  padding: 2em;
+  padding: 2.5em 2em;
   max-width: 950px;
-  margin: auto;
+  margin: 3em auto 2em auto;
+  text-align: center;
 }
 
 .intro h2,
@@ -120,6 +121,16 @@ a:hover {
   font-weight: 600;
 }
 
+.benvenuto {
+  font-size: 2.2em;
+  font-weight: 700;
+  margin-top: 2em;
+  margin-bottom: 1.8em;
+  text-align: center;
+  color: #4b004f;
+}
+
+/* SEZIONE: COSA TROVARE */
 .cosa-trovare {
   padding: 3em 2em;
   background-color: #f6e1ee;
@@ -127,11 +138,18 @@ a:hover {
   border-radius: 10px;
   text-align: center;
   max-width: 1200px;
-  margin: 3em auto; /* Centra la sezione */
+  margin: 3em auto;
 }
 
+.cosa-trovare h2 {
+  font-size: 2em;
+  color: #6f5aa7;
+  margin-bottom: 1em;
+}
+
+/* CONTAINER DELLE CARD */
 .card-container {
-  max-width: 1200px; 
+  max-width: 1200px;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
@@ -139,8 +157,9 @@ a:hover {
   justify-content: center;
 }
 
+/* CARD SINGOLA */
 .soft-card {
-  background-color: #fff0f7; /* colore più visibile */
+  background-color: #fff0f7;
   border-radius: 18px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   padding: 1.5em 1.2em;
@@ -175,6 +194,7 @@ a:hover {
   color: #3a3a3a;
 }
 
+/* LINGUAGGIO BOX */
 .linguaggio-box {
   background-color: #f6e1ee;
   border-left: 4px solid #b72f68;
@@ -185,10 +205,12 @@ a:hover {
   font-size: 1em;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
+
 .linguaggio-box h2 {
   color: #6f5aa7;
   margin-bottom: 0.6em;
 }
+
 .linguaggio-box a {
   display: inline-block;
   margin-top: 1em;
@@ -197,7 +219,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
   text-align: center;
   padding: 1.5em 1em;
@@ -206,16 +228,28 @@ footer {
   margin-top: 3em;
 }
 
-/* Responsive tweaks */
+/* RESPONSIVE TWEAKS */
+@media (max-width: 1024px) {
+  .soft-card {
+    width: 45%;
+  }
+}
+
 @media (max-width: 768px) {
   .hero-text h1 {
     font-size: 2.2em;
   }
+
   .hero-text p {
     font-size: 1.1em;
   }
+
   .navbar ul {
     flex-direction: column;
     gap: 1em;
+  }
+
+  .soft-card {
+    width: 100%;
   }
 }
