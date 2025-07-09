@@ -1,4 +1,4 @@
-/* RESET BASE */
+/* RESET BASE */ 
 * {
   margin: 0;
   padding: 0;
@@ -67,6 +67,37 @@ a:hover {
   text-decoration: underline;
 }
 
+.site-name {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* Selettore lingua + icona ℹ️ */
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.language-switcher select {
+  padding: 4px 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+}
+
+/* ACCESSIBILITÀ: label non visibile visivamente ma presente per screen reader */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
 /* HERO SECTION */
 .hero {
   width: 100vw;
@@ -106,7 +137,7 @@ a:hover {
   margin: 0;
 }
 
-/* INTRO SECTION (contenuto centrale con benvenuto) */
+/* INTRO SECTION */
 .intro {
   padding: 2.5em 2em;
   max-width: 950px;
