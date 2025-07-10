@@ -153,8 +153,8 @@ a:hover {
   letter-spacing: 0.03em;
   border-bottom: 2px solid #b72f68;
   display: inline-block;
-  line-height: 1.1;
-  padding-bottom: 0.2em; 
+  line-height: 1;   
+  padding-bottom: 0.05em;    
 }
 
 .benvenuto a {
