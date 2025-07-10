@@ -164,6 +164,17 @@ a:hover {
   border-bottom: 2px solid #b72f68;
   display: inline-block;
   line-height: 1.1;
+
+  .benvenuto a {
+  color: #4b004f; /* tono simile al titolo */
+  font-weight: 800;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+.benvenuto a:hover {
+  color: #6f5aa7; /* volendo puoi tenere lo stesso hover */
+  text-decoration: underline;
 }
 
 /* SEZIONE: COSA TROVARE */
