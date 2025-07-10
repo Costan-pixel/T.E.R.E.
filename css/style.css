@@ -141,6 +141,7 @@ a:hover {
 .intro {
   padding: 5.5em 2em 4em 2em; 
   max-width: 950px;
+  margin: 0 auto;
   text-align: center;
 }
 
