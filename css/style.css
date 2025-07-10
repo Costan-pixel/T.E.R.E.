@@ -101,10 +101,10 @@ a:hover {
 /* HERO SECTION */
 .hero {
   width: 100vw;
-  height: 95vh;
+  height: 97vh;
   background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center bottom;
   background-size: cover;
   background-color: #f6e1ee;
   display: flex;
