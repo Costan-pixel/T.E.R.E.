@@ -139,28 +139,27 @@ a:hover {
 
 /* INTRO SECTION */
 .intro {
-  padding: 4.5em 2em 3em 2em;
+  padding: 5.5em 2em 4em 2em; /* ↑ aumenta lo spazio sopra e sotto */
   max-width: 950px;
-  margin: 0 auto 4em auto; 
+  margin: 0 auto; /* solo centratura orizzontale */
   text-align: center;
 }
 
 .benvenuto {
   font-family: 'Poppins', sans-serif;
-  font-size: 3em;
-  font-weight: bold;
-  padding-top: 0.5em;
-  padding-bottom: 1.5em;
+  font-size: 2.6em;
+  font-weight: 800;
   color: #6f5aa7;
-  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.08);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.08);
   letter-spacing: 0.03em;
   border-bottom: 2px solid #b72f68;
   display: inline-block;
-  line-height: 1.01;
+  line-height: 1.1;
+  padding-bottom: 0.2em; 
 }
 
-  .benvenuto a {
-  color: #6f5aa7; 
+.benvenuto a {
+  color: #5a005c;
   font-family: inherit;
   font-weight: inherit;
   text-decoration: none;
@@ -168,7 +167,7 @@ a:hover {
 }
 
 .benvenuto a:hover {
-  color: #6f5aa7; 
+  color: #6f5aa7;
   text-decoration: underline;
 }
 
