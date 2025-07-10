@@ -172,6 +172,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.intro p {
+  padding-top: 1.2em;
+}
+
 /* SEZIONE: COSA TROVARE */
 .cosa-trovare {
   padding: 3em 2em;
