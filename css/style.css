@@ -104,13 +104,13 @@ a:hover {
   height: 100vh;
   background-image: url("../img/hero.jpg");
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center bottom;
   background-size: cover;
   background-color: #f6e1ee;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 65px; /* nuova regola */
+  padding-top: 65px; 
   position: relative;
   overflow: hidden;
 }
