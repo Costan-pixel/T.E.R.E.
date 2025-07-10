@@ -172,12 +172,11 @@ a:hover {
   text-decoration: underline;
 }
 
+
 .intro p {
-  padding-top: 1.6em;
-  .intro p {
-  padding-top: 1.2em;
-  font-size: 1.15em;
-  line-height: 1.6;  
+padding-top: 1.2em;
+font-size: 1.15em;
+line-height: 1.6;  
 }
 
 /* SEZIONE: COSA TROVARE */
