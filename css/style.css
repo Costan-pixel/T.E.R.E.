@@ -139,9 +139,8 @@ a:hover {
 
 /* INTRO SECTION */
 .intro {
-  padding: 5.5em 2em 4em 2em; /* ↑ aumenta lo spazio sopra e sotto */
+  padding: 5.5em 2em 4em 2em; 
   max-width: 950px;
-  margin: 0 auto; /* solo centratura orizzontale */
   text-align: center;
 }
 
