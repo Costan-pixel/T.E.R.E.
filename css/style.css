@@ -145,13 +145,6 @@ a:hover {
   text-align: center;
 }
 
-.intro h2,
-.intro ul li a {
-  color: #6f5aa7;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-}
-
 .benvenuto {
   font-family: 'Poppins', sans-serif; 
   font-size: 2.6em;
