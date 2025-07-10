@@ -153,6 +153,7 @@ a:hover {
 }
 
 .benvenuto {
+  font-family: 'Poppins', sans-serif; 
   font-size: 2.6em;
   font-weight: 800;
   padding-top: 0.5em;
@@ -167,14 +168,15 @@ a:hover {
 }
 
   .benvenuto a {
-  color: #4b004f; /* tono simile al titolo */
-  font-weight: 800;
+  color: #4b004f; 
+  font-family: inherit;
+  font-weight: inherit;
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 
 .benvenuto a:hover {
-  color: #6f5aa7; /* volendo puoi tenere lo stesso hover */
+  color: #6f5aa7; 
   text-decoration: underline;
 }
 
