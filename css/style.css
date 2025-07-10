@@ -182,6 +182,7 @@ a:hover {
 
 /* SEZIONE: COSA TROVARE */
 .cosa-trovare {
+  margin-top: 2em;
   padding: 3em 2em;
   background-color: #f6e1ee;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
