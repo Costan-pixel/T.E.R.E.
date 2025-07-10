@@ -146,18 +146,18 @@ a:hover {
 }
 
 .benvenuto {
-  font-family: 'Poppins', sans-serif; 
+  font-family: 'Poppins', sans-serif;
   font-size: 2.6em;
   font-weight: 800;
   padding-top: 0.5em;
-  padding-bottom: 0.3em; 
-  margin-bottom: 0.6em; 
+  padding-bottom: 1.2em;
   color: #4b004f;
-  text-shadow: 1px 1px 3px rgba(0,0,0,0.08);
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.08);
   letter-spacing: 0.03em;
   border-bottom: 2px solid #b72f68;
   display: inline-block;
   line-height: 1.1;
+  text-transform: uppercase;
 }
 
   .benvenuto a {
