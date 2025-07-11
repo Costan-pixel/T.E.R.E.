@@ -281,7 +281,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* RESPONSIVE: disporre le card in colonna su schermi piccoli */
+/* RESPONSIVE: card in colonna schermi piccoli */
 @media (max-width: 1024px) {
   .soft-card {
     flex: 0 1 45%;
