@@ -269,6 +269,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.section-spacing {
+  margin-top: 4em;
+}
+
 /* RESPONSIVE: card in colonna schermi piccoli */
 @media (max-width: 1024px) {
   .soft-card {
