@@ -205,6 +205,23 @@ line-height: 1.6;
   margin: 0 auto;
 }
 
+/* Disposizione forzata: 3 card su prima riga, 2 su seconda */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+}
+
+.soft-card {
+  flex: 0 1 30%; /* 3 per riga */
+}
+
+.soft-card:nth-child(4),
+.soft-card:nth-child(5) {
+  flex: 0 1 45%; /* 2 per riga */
+}
+
 /* CARD SINGOLA */
 .soft-card {
   background-color: #fff0f7;
