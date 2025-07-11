@@ -160,7 +160,7 @@ a:hover {
 }
 
 .benvenuto a {
-  color: #5a005c;
+  color: #6f5aa7;
   font-family: inherit;
   font-weight: inherit;
   text-decoration: none;
@@ -168,12 +168,13 @@ a:hover {
 }
 
 .benvenuto a:hover {
-  color: #6f5aa7;
+  color: #5a005c;
   text-decoration: underline;
 }
 
 .intro p {
   padding-top: 1.2em;
+  padding-bottom:3em
   font-size: 1.15em;
   line-height: 1.6;  
 }
