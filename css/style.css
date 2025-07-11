@@ -172,7 +172,6 @@ a:hover {
   text-decoration: underline;
 }
 
-
 .intro p {
 padding-top: 1.2em;
 font-size: 1.15em;
@@ -181,30 +180,29 @@ line-height: 1.6;
 
 /* SEZIONE: COSA TROVARE */
 .cosa-trovare {
-  margin-top: 2em;
   padding: 3em 2em;
   background-color: #f6e1ee;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
   border-radius: 10px;
   text-align: center;
-  max-width: 1200px;
+  max-width: 1300px;
   margin: 3em auto;
 }
 
 .cosa-trovare h2 {
   font-size: 2em;
   color: #6f5aa7;
-  margin-bottom: 1em;
+  margin-bottom: 1.5em;
 }
 
 /* CONTAINER DELLE CARD */
 .card-container {
-  max-width: 1200px;
-  margin: auto;
   display: flex;
   flex-wrap: wrap;
-  gap: 2em;
   justify-content: center;
+  gap: 2em;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 /* CARD SINGOLA */
@@ -213,7 +211,7 @@ line-height: 1.6;
   border-radius: 18px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   padding: 1.5em 1.2em;
-  width: 28%;
+  width: 30%;
   min-width: 280px;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   display: flex;
@@ -250,10 +248,11 @@ line-height: 1.6;
   border-left: 4px solid #b72f68;
   padding: 1.5em;
   margin: 3em auto;
-  max-width: 900px;
+  max-width: 1300px;
   border-radius: 12px;
   font-size: 1em;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  text-align: left;
 }
 
 .linguaggio-box h2 {
@@ -267,6 +266,19 @@ line-height: 1.6;
   color: #b72f68;
   font-weight: bold;
   text-decoration: underline;
+}
+
+/* RESPONSIVE: disporre le card in colonna su schermi piccoli */
+@media (max-width: 1024px) {
+  .soft-card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .soft-card {
+    width: 100%;
+  }
 }
 
 /* FOOTER */
