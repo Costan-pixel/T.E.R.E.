@@ -144,7 +144,7 @@ a:hover {
   text-align: center;
 }
 
-.intro h2 {
+.intro-h2 {
   font-family: 'Poppins', sans-serif;
   font-size: 3em;
   font-weight: 700;
@@ -158,7 +158,7 @@ a:hover {
   text-align: center;
 }
 
-.intro h2 a {
+.intro-h2 a {
   color: #6f5aa7;
   font-family: inherit;
   font-weight: inherit;
@@ -166,12 +166,12 @@ a:hover {
   transition: color 0.2s ease-in-out;
 }
 
-.intro h2 a:hover {
+.intro-h2 a:hover {
   color: #5a005c;
   text-decoration: underline;
 }
 
-.intro p {
+.intro-p {
   padding-top: 1.2em;
   padding-bottom: 1em;
   font-size: 1.2em;
