@@ -15,14 +15,13 @@ body {
 
 /* LINK GLOBALI */
 a {
-  color: #873260;
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s ease-in-out;
 }
 
 a:hover {
-  color: #6f5aa7;
+  color: #873260;
   text-decoration: underline;
 }
 
