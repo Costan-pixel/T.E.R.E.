@@ -40,6 +40,8 @@ a:hover {
   text-decoration: underline;
 }
 
+/* HEADER */
+
 /* NAVBAR */
 .navbar {
   width: 100%;
@@ -139,6 +141,7 @@ a:hover {
   margin: 0;
 }
 
+/* MAIN */
 /* INTRO SECTION */
 .intro {
   margin: 0 auto;
@@ -182,7 +185,7 @@ a:hover {
   line-height: 1.6;  
 }
 
-/* SEZIONE: COSA PUOI TROVARE */
+/* SEZIONE COSA PUOI TROVARE */
 .cosa-trovare {
   padding: 3em 2em;
   background-color: #f6e1ee;
@@ -210,7 +213,7 @@ a:hover {
   margin: 0 auto;
 }
 
-/* STRUTTURA CARD */
+/* STILE CARD */
 .soft-card {
   background-color: #fff0f7;
   border-radius: 18px;
@@ -223,21 +226,8 @@ a:hover {
   align-items: center;
   text-align: center;
   flex: 0 1 30%;
-
   text-decoration: none;
   color: inherit;
-}
-
-.soft-card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
-  text-decoration: none;
-  color: inherit;
-}
-
-.card-emoji {
-  font-size: 2.2em;
-  margin-bottom: 0.4em;
 }
 
 .soft-card h3 {
@@ -251,6 +241,18 @@ a:hover {
   line-height: 1.4;
   color: #3a3a3a;
   pointer-events: none;
+}
+
+.soft-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  text-decoration: none;
+  color: inherit;
+}
+
+.card-emoji {
+  font-size: 2.2em;
+  margin-bottom: 0.4em;
 }
 
 /* BOX STRUMENTI */
@@ -280,7 +282,7 @@ a:hover {
 }
 
 .strumento-link {
-  background-color: #f6e1ee;
+  background-color: #fff0f7;
   border-radius: 10px;
   padding: 1em 1.5em;
   text-decoration: none;
