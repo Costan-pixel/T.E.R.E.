@@ -241,6 +241,7 @@ a:hover {
   font-size: 0.95em;
   line-height: 1.4;
   color: #3a3a3a;
+  pointer-events: none;
 }
 
 /* LINGUAGGIO BOX */
