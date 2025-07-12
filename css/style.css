@@ -208,8 +208,6 @@ a:hover {
 
 /* CARD SINGOLA */
 .soft-card {
-  text-decoration: none;
-  color: inherit;
   background-color: #fff0f7;
   border-radius: 18px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
@@ -221,11 +219,16 @@ a:hover {
   align-items: center;
   text-align: center;
   flex: 0 1 30%;
+
+  text-decoration: none;
+  color: inherit;
 }
 
 .soft-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+  text-decoration: none;
+  color: inherit;
 }
 
 .card-emoji {
