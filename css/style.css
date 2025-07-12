@@ -142,6 +142,11 @@ a:hover {
 }
 
 /* MAIN */
+main {
+  display: block;
+  width: 100%;
+}
+
 /* INTRO SECTION */
 .intro {
   margin: 0 auto;
