@@ -254,11 +254,11 @@ a:hover {
 
 /* BOX STRUMENTI */
 .strumenti-box {
-  background-color: #ffffff;
+  background-color: #f6e1ee;
   border-left: 4px solid #6f5aa7;
   padding: 2em;
-  margin: 3em auto 0 auto;
-  max-width: 900px;
+  margin: 2.5em auto 0 auto;
+  max-width: 1100px;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
   text-align: center;
