@@ -208,6 +208,8 @@ a:hover {
 
 /* CARD SINGOLA */
 .soft-card {
+  text-decoration: none;
+  color: inherit;
   background-color: #fff0f7;
   border-radius: 18px;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
