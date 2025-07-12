@@ -28,14 +28,14 @@ a:hover {
   text-decoration: underline;
 }
 
-.text-link {
-  color: #9966cc;
-  font-weight: 500;
-  text-decoration: underline dotted;
+a.text_inline_link {
+  color: inherit;
+  font-weight: inherit;
+  text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 
-.text-link:hover {
+a.text_inline_link:hover {
   color: #6f5aa7;
   text-decoration: underline;
 }
@@ -54,7 +54,6 @@ a:hover {
 }
 
 /* HEADER */
-
 /* NAVBAR */
 .navbar {
   width: 100%;
