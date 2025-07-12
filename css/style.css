@@ -254,7 +254,7 @@ a:hover {
 
 /* BOX STRUMENTI */
 .strumenti-box {
-  background-color: #f6e1ee;
+  background-color: #fff0f7;
   border-left: 4px solid #6f5aa7;
   padding: 2em;
   margin: 2.5em auto 0 auto;
@@ -319,7 +319,7 @@ a:hover {
 /* LINGUAGGIO BOX */
 .linguaggio-box {
   background-color: #f6e1ee;
-  border-left: 4px solid #b72f68;
+  border-left: 4px solid #6f5aa7;
   padding: 1.5em;
   margin: 4em auto 0 auto;
   max-width: 1100px;
