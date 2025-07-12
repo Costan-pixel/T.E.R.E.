@@ -307,12 +307,11 @@ a:hover {
   .strumenti-container {
     flex-direction: column;
     align-items: center;
-  }
+}
 
   .strumento-link {
     width: 100%;
     justify-content: center;
-  }
 }
 
 /* LINGUAGGIO BOX */
