@@ -591,6 +591,39 @@ a.text-br-link:hover {
 }
 
 /* ------------------------------
+          STILI CARD
+------------------------------ */
+
+/* Associazioni */
+.associazione-card {
+  padding: 1.2em;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 1.5em;
+}
+
+.associazione-card h2 {
+  font-size: 1.3em;
+  color: #6f5aa7;
+  margin-bottom: 0.5em;
+}
+
+.associazione-card a {
+  color: #6f5aa7;
+  text-decoration: none;
+}
+
+.associazione-card a:hover {
+  color: #b72f68;
+  text-decoration: underline;
+}
+
+.associazione-card p {
+  font-size: 1.05em;
+  margin-bottom: 0.5em;
+  line-height: 1.5;
+}
+
+/* ------------------------------
    RESPONSIVE
 ------------------------------ */
 @media (max-width: 768px) {
