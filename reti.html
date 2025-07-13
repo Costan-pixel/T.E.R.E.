@@ -3,12 +3,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Associazioni e Reti – TERE</title>
+  <title>Associazioni – TERE</title>
+  <link rel="icon" href="img/favicon.png" type="image/x-icon" />
   <link rel="stylesheet" href="css/style.css" />
+  
+  <!-- Metadati DC -->
+  <meta name="DC.title" content="Associazioni e Reti – TERE" />
+  <meta name="DC.creator" content="Costanza Citti" />
+  <meta name="DC.language" content="it" />
+  <meta name="DC.subject" content="Associazioni, collettivi, educazione sessuale, transfemminismo" />
+  <meta name="description" content="Associazioni e collettivi in Europa che si occupano di educazione sessuo-affettiva in ottica transfemminista. Esplora la lista o filtra per Paese, tema, lingua." />
 </head>
 
 <body>
-  <!-- NAVBAR -->
+  <!-- Navbar -->
   <nav class="navbar">
     <ul>
       <li><a href="index.html" class="site-name">Home</a></li>
@@ -21,50 +29,54 @@
     </ul>
   </nav>
 
-  <!-- MAIN -->
   <main>
-    <section class="first-section">
-      <div class="box-L">
-        <h1 class="page-h1">Associazioni, collettivi e reti</h1>
-        <p>Una mappatura e rubrica di realtà che promuovono progetti e risorse per l’educazione sessuo-affettiva transfemminista in Europa, visualizzabile anche dalla <a href="mappe.html" class="text-inline-link">mappa geolocalizzata</a>.</p>
-      </div>
-    </section>
+    <!-- Wrapper per sidebar + contenuto principale -->
+    <div class="wrapper-section first-section">
+      <!-- Sidebar filtri (per ora base, da implementare) -->
+      <aside class="sidebar">
+        <h2>Filtra per:</h2>
+        <form>
+          <label for="search">🔍 Cerca:</label>
+          <input type="text" id="search" name="search" placeholder="Cerca associazione...">
 
-    <!-- LISTA ASSOCIAZIONI ECC. -->
-    <section class="section-base">
-      <ul class="associazione-list">
-        <li>
-          <h2>OII Europe</h2>
-          <p><strong>Paese:</strong> Germania (Berlino)</p>
-          <p>Organizzazione intersex europea che promuove diritti e formazione attraverso campagne, materiali e ricerca partecipata.</p>
-        </li>
-        <li>
-          <h2>Rete Educare alle Differenze</h2>
-          <p><strong>Paese:</strong> Italia</p>
-          <p>Rete nazionale italiana di educatori e attivistɜ per l’educazione alle differenze, con materiali, incontri e attività in scuole e territori.</p>
-        </li>
-        <li>
-          <h2>FLUX – Gender Education</h2>
-          <p><strong>Paese:</strong> Spagna (Barcellona)</p>
-          <p>Collettivo che propone laboratori e materiali didattici transfemministi per giovani e insegnanti.</p>
-        </li>
-        <li>
-          <h2>SHE (Sexual Health Europe)</h2>
-          <p><strong>Paese:</strong> Paesi Bassi</p>
-          <p>Rete europea che lavora sul benessere sessuale, con focus su educazione, salute e accessibilità per giovani.</p>
-        </li>
-        <li>
-          <h2>Accept</h2>
-          <p><strong>Paese:</strong> Romania</p>
-          <p>Associazione LGBTQ+ che si occupa di advocacy, formazione e progetti educativi nelle scuole e università.</p>
-        </li>
-      </ul>
-    </section>
+          <label for="paese">🌍 Paese:</label>
+          <select id="paese" name="paese">
+            <option value="">Tutti</option>
+            <option value="IT">Italia</option>
+            <option value="FR">Francia</option>
+            <option value="ES">Spagna</option>
+            <option value="DE">Germania</option>
+          </select>
+        </form>
+      </aside>
+
+      <!-- Lista associazioni, collettivi... -->
+      <section class="box-L">
+        <h1 class="page-h1">Associazioni e reti</h1>
+
+        <div class="associazione">
+          <h2>Gruppo A</h2>
+          <p><strong>Paese:</strong> Italia<br>
+          <strong>Ambito:</strong> Educazione sessuale nelle scuole<br>
+          <a href="https://www.linkassociazione.it" target="_blank" class="text-inline-link">🌐 Visita il sito</a></p>
+        </div>
+
+        <div class="associazione">
+          <h2>Collectif B</h2>
+          <p><strong>Paese:</strong> Francia<br>
+          <strong>Ambito:</strong> Supporto LGBTQ+ giovanile<br>
+          <a href="#" class="text-inline-link">🌐 Visita il sito</a></p>
+        </div>
+
+        <!-- Altre associazioni qui... -->
+        
+      </section>
+    </div>
   </main>
 
-  <!-- FOOTER -->
+  <!-- Footer -->
   <footer>
-    <p>© 2025 TERE – Progetto universitario. Tutti i diritti riservati. Powered by transfeminist values.</p>
+    <p>© 2025 TERE – Progetto universitario. Powered by transfeminist values.</p>
   </footer>
 </body>
 </html>
