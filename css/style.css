@@ -426,6 +426,29 @@ main {
   }
 }
 
+.associazione-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 2em;
+}
+
+.associazione-list li {
+  margin-bottom: 2.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #ccc;
+}
+
+.associazione-list h2 {
+  font-size: 1.6em;
+  color: #6f5aa7;
+  margin-bottom: 0.4em;
+}
+
+.associazione-list p {
+  font-size: 1.05em;
+  line-height: 1.6;
+}
+
 /* ------------------------------
    STILI LINK
 ------------------------------ */
