@@ -31,10 +31,18 @@
 
   <main>
     <!-- Wrapper per sidebar + contenuto principale -->
-    <div class="wrapper-section first-section">
-      <!-- Sidebar filtri (per ora base, da implementare) -->
-      <aside class="sidebar">
-        <h2>Filtra per:</h2>
+    <section class="section-base associazioni-section">
+     <div class="associazioni-container">
+      <!-- Sidebar filtri -->
+      <aside class="associazioni-sidebar">
+       <h2>Filtra</h2>
+       <label for="filter-country">Paese</label>
+       <input type="text" id="filter-country" placeholder="Cerca per paese..." />
+       <label for="filter-name">Nome</label>
+        
+       <input type="text" id="filter-name" placeholder="Cerca per nome..." />
+       
+        <!-- Altri filtri possibili-->
         <form>
           <label for="search">🔍 Cerca:</label>
           <input type="text" id="search" name="search" placeholder="Cerca associazione...">
@@ -50,7 +58,7 @@
         </form>
       </aside>
 
-      <!-- Lista associazioni, collettivi... -->
+      <!-- Lista associazioni, gruppi, collettivi... -->
       <section class="box-L">
         <h1 class="page-h1">Reti, associazioni, progetti</h1>
         <p>Una mappatura e rubrica di realtà che promuovono progetti e risorse per l’educazione sessuo-affettiva transfemminista in Europa, visualizzabile anche dalla <a href="mappe.html" class="text-inline-link">mappa geolocalizzata</a>.</p>
@@ -69,7 +77,35 @@
           <a href="#" class="text-inline-link">🌐 Visita il sito</a></p>
         </div>
 
-        <!-- Altre associazioni qui... -->
+        <div class="associazione-card">
+         <h2><a href="https://oiieurope.org/" target="_blank">OII Europe</a></h2>
+         <p><strong>Paese:</strong> Germania (Berlino)</p>
+         <p>Organizzazione intersex europea che promuove diritti e formazione attraverso campagne, materiali e ricerca partecipata.</p>
+        </div>
+
+        <div class="associazione-card">
+         <h2><a href="https://www.educarealledifferenze.it/" target="_blank">Rete Educare alle Differenze</a></h2>
+         <p><strong>Paese:</strong> Italia</p>
+         <p>Rete italiana di educatori e attivistɜ per l’educazione alle differenze, con materiali, incontri e attività in scuole e territori.</p>
+        </div>
+
+        <div class="associazione-card">
+         <h2><a href="https://fluxgendereducation.org/" target="_blank">FLUX – Gender Education</a></h2>
+         <p><strong>Paese:</strong> Spagna (Barcellona)</p>
+         <p>Collettivo che propone laboratori e materiali didattici transfemministi per giovani e insegnanti.</p>
+        </div>
+
+        <div class="associazione-card">
+         <h2><a href="https://www.sexualhealtheurope.org/" target="_blank">SHE – Sexual Health Europe</a></h2>
+         <p><strong>Paese:</strong> Paesi Bassi</p>
+         <p>Rete europea che lavora sul benessere sessuale, con focus su educazione, salute e accessibilità per giovani.</p>
+        </div>
+
+        <div class="associazione-card">
+         <h2><a href="https://www.acceptromania.ro/" target="_blank">Accept</a></h2>
+         <p><strong>Paese:</strong> Romania</p>
+         <p>Associazione LGBTQ+ che si occupa di advocacy, formazione e progetti educativi nelle scuole e università.</p>
+        </div>
         
       </section>
     </div>
