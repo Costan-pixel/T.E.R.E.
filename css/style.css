@@ -412,10 +412,16 @@ main {
   letter-spacing: 0.02em;
   border-bottom: 2px solid #b72f68;
   display: inline-block;
-  line-height: 1.2;
+  line-height: 1.1;
   margin-bottom: 1em;
-  padding-bottom: 0.1em;
+  padding-bottom: 0.2em;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .page-h1 {
+    font-size: 2em;
+  }
 }
 
 /* ------------------------------
