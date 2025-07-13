@@ -411,7 +411,9 @@ main {
   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.08);
   letter-spacing: 0.02em;
   border-bottom: 2px solid #b72f68;
-  display: inline-block;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   line-height: 1.1;
   margin-bottom: 1em;
   padding-bottom: 0.2em;
