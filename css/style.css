@@ -400,28 +400,9 @@ main {
            STILI PER PAGINE INTERNE 
 -------------------------------------------*/
 
-/* STILI PER SEZIONI BASE */
-.section-base {
-  background-color: #ffffff;
-  max-width: 1100px;
-  margin: 3em auto;
-  padding: 2em;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-  line-height: 1.7;
-}
-
-/* VARIANTI DI MARGIN PER SEPARAZIONE VISIVA */
-.margin-top-sm { margin-top: 2em; }
-.margin-top-md { margin-top: 3em; }
-.margin-top-lg { margin-top: 5em; }
-
-/*MARGIN INIZIO PAGINA PER COMPENSAZIONE NAVBAR STICKY */
-.first-section {
-  margin-top: 60px;
-}
-
-/* HEADINGS PRINCIPALI */
+/* ------------------------------
+   STILI TESTUALI – HEADINGS
+------------------------------ */
 .page-h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.6em;
@@ -437,7 +418,9 @@ main {
   text-align: center;
 }
 
-/* STILI PER LINK INLINE NEI PARAGRAFI */
+/* ------------------------------
+   STILI LINK
+------------------------------ */
 a.text-inline-link {
   color: inherit;
   font-weight: inherit;
@@ -450,7 +433,6 @@ a.text-inline-link:hover {
   text-decoration: underline;
 }
 
-/* STILE PER LINK VISIBILE DOPO ANDATA A CAPO */
 a.text-br-link {
   display: inline-block;
   margin-top: 1em;
@@ -464,18 +446,33 @@ a.text-br-link:hover {
   color: #6f5aa7;
 }
 
-/* RESPONSIVE TIPOGRAFIA */
-@media (max-width: 768px) {
-  .page-h1 {
-    font-size: 2em;
-  }
-
-  .section-base {
-    padding: 1.5em;
-  }
+/* ------------------------------
+   STILI SECTION
+------------------------------ */
+.section-base {
+  background-color: #ffffff;
+  max-width: 1100px;
+  margin: 3em auto;
+  padding: 2em;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  line-height: 1.7;
 }
 
-/* BOX GENERICO LARGE */
+/* ------------------------------
+   STILI MARGIN / SPACING
+------------------------------ */
+.margin-top-sm { margin-top: 2em; }
+.margin-top-md { margin-top: 3em; }
+.margin-top-lg { margin-top: 5em; }
+
+.first-section {
+  margin-top: 60px;
+}
+
+/* ------------------------------
+   STILI BOX
+------------------------------ */
 .box-L {
   background-color: #f6e1ee;
   border-left: 4px solid #6f5aa7;
@@ -520,7 +517,22 @@ a.text-br-link:hover {
   text-decoration: underline;
 }
 
-/* FOOTER */
+/* ------------------------------
+   RESPONSIVE
+------------------------------ */
+@media (max-width: 768px) {
+  .page-h1 {
+    font-size: 2em;
+  }
+
+  .section-base {
+    padding: 1.5em;
+  }
+}
+
+/* ------------------------------
+   FOOTER
+------------------------------ */
 footer {
   text-align: center;
   padding: 1.5em 1em;
