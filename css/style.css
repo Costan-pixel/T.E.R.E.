@@ -591,6 +591,38 @@ a.text-br-link:hover {
 }
 
 /* ------------------------------
+   LISTE / CONTENITORI
+------------------------------ */
+
+.associazioni-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  align-items: flex-start;
+}
+
+.associazioni-sidebar {
+  flex: 1 1 220px;
+  max-width: 250px;
+  background-color: #f6e1ee;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
+.associazioni-sidebar label,
+.associazioni-sidebar select,
+.associazioni-sidebar input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+.associazioni-section .box-L {
+  flex: 3 1 700px;
+}
+
+/* ------------------------------
           STILI CARD
 ------------------------------ */
 
