@@ -553,10 +553,10 @@ a.text-br-link:hover {
 }
 
 /* ------------------------------
-   LISTE / CONTENITORI
-   (sidebar + lista associazioni)
+       LISTE / CONTENITORI
 ------------------------------ */
 
+/*(sidebar + lista associazioni)*/
 .associazioni-container {
   display: flex;
   flex-wrap: wrap;
@@ -585,9 +585,58 @@ a.text-br-link:hover {
   flex: 3 1 700px;
 }
 
+/*(filtro lettere ordine alfabetico)*/
+
+.filtro-lettere {
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.filtro-lettere .lettere a {
+  margin: 0 0.4em;
+  text-decoration: none;
+  font-weight: bold;
+  color: #6f5aa7;
+  font-size: 1em;
+}
+
+.filtro-lettere .lettere a:hover {
+  color: #b72f68;
+}
+
 /* ------------------------------
-   STILI CARD – Associazioni
+             TABELLE
 ------------------------------ */
+
+.tabella-associazioni {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  font-size: 1em;
+}
+
+.tabella-associazioni .riga {
+  display: grid;
+  grid-template-columns: 2.2fr 1.2fr 2.5fr 0.6fr 0.6fr;
+  align-items: center;
+  padding: 0.6em 1em;
+  background-color: #fefefe;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.tabella-associazioni .intestazione {
+  background-color: #eac1dc;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+
+
+/* ------------------------------
+            STILI CARD 
+------------------------------ */
+
+/*(card associazioni e reti)*/
 .associazione-card {
   padding: 1.2em;
   border-bottom: 1px solid #ccc;
