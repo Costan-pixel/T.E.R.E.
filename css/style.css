@@ -661,24 +661,25 @@ a.text-br-link:hover {
 ------------------------------ */
 
 /* card materiali */
-.materiale-card {
-  background-color: #fdf6fa;
-  padding: 1em;
+.card-item {
+  background-color: #f5f5f5; /* oppure #f2e6ef per un lilla pallido */
   border-radius: 12px;
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease-in-out;
-  text-align: center;
+  padding: 1.5em;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2em;
+  transition: transform 0.2s ease;
 }
 
 .materiale-card:hover {
-  transform: scale(1.02);
+  transform: scale(1.01);
 }
 
-.materiale-card img {
+.card-item img {
   width: 100%;
-  height: auto;
+  max-height: 180px;
+  object-fit: cover;
   border-radius: 8px;
-  margin-bottom: 0.8em;
+  margin-bottom: 1em;
 }
 
 .materiale-card h3 {
