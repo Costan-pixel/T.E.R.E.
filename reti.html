@@ -1,143 +1,158 @@
 <!DOCTYPE html>
 <html lang="it">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Associazioni – TERE</title>
-		<link rel="icon" href="img/favicon.png" type="image/x-icon" />
-		<link rel="stylesheet" href="css/style.css" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Associazioni – TERE</title>
+  <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="css/style.css" />
 
-		<!-- Metadati DC -->
-		<meta name="DC.title" content="Associazioni e Reti – TERE" />
-		<meta name="DC.creator" content="Costanza Citti" />
-		<meta name="DC.language" content="it" />
-		<meta name="DC.subject" content="Associazioni, collettivi, educazione sessuale, transfemminismo" />
-		<meta name="description" content="Associazioni e collettivi in Europa che si occupano di educazione sessuo-affettiva in ottica transfemminista. Esplora la lista o filtra per Paese, tema, lingua." />
-	</head>
+  <!-- Metadati DC -->
+  <meta name="DC.title" content="Associazioni e Reti – TERE" />
+  <meta name="DC.creator" content="Costanza Citti" />
+  <meta name="DC.language" content="it" />
+  <meta name="DC.subject" content="Associazioni, collettivi, educazione sessuale, transfemminismo" />
+  <meta name="description" content="Associazioni e collettivi in Europa che si occupano di educazione sessuo-affettiva in ottica transfemminista. Esplora la lista o filtra per Paese, tema, lingua." />
+</head>
 
-	<body>
-		<!-- Navbar -->
-		<nav class="navbar">
-			<ul>
-				<li><a href="index.html" class="site-name">Home</a></li>
-				<li><a href="ilprogetto_tere.html">Il progetto TERE</a></li>
-				<li><a href="reti.html">Reti e Progetti</a></li>
-				<li><a href="materiali.html">Materiali e Risorse</a></li>
-				<li><a href="iniziative_news.html">Iniziative e News</a></li>
-				<li><a href="mappe.html">Mappe</a></li>
-				<li><a href="proponi.html">Proponi</a></li>
-			</ul>
-		</nav>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html" class="site-name">Home</a></li>
+      <li><a href="ilprogetto_tere.html">Il progetto TERE</a></li>
+      <li><a href="reti.html">Reti e Progetti</a></li>
+      <li><a href="materiali.html">Materiali e Risorse</a></li>
+      <li><a href="iniziative_news.html">Iniziative e News</a></li>
+      <li><a href="mappe.html">Mappe</a></li>
+      <li><a href="proponi.html">Proponi</a></li>
+    </ul>
+  </nav>
 
-		<main>
-			<!-- Wrapper per sidebar + contenuto principale -->
-			<section class="section-base associazioni-section">
-				<div class="associazioni-container">
-					<!-- Sidebar filtri -->
+  <main>
+    <!-- Wrapper per sidebar + contenuto principale -->
+    <section class="section-base associazioni-section">
+      <div class="associazioni-container">
+        <!-- Sidebar filtri -->
+        <aside class="associazioni-sidebar">
+          <h2>Filtra</h2>
 
-					<aside class="associazioni-sidebar">
-						<h2>Filtra</h2>
+          <label for="search">🔍 Cerca:</label>
+          <input type="text" id="search" name="search" aria-label="Cerca associazione per nome" />
 
-						<label for="search">🔍 Cerca:</label>
-						<input type="text" id="search" name="search" aria-label="Cerca associazione per nome" />
+          <label for="paese">🌍 Paese:</label>
+          <select id="paese" name="paese">
+            <option value="">Tutti</option>
+            <option value="IT">Italia</option>
+            <option value="FR">Francia</option>
+            <option value="ES">Spagna</option>
+            <option value="DE">Germania</option>
+          </select>
+        </aside>
 
-						<label for="paese">🌍 Paese:</label>
-						<select id="paese" name="paese">
-							<option value="">Tutti</option>
-							<option value="IT">Italia</option>
-							<option value="FR">Francia</option>
-							<option value="ES">Spagna</option>
-							<option value="DE">Germania</option>
-						</select>
-					</aside>
+        <!-- Lista associazioni, gruppi, collettivi... -->
+        <section class="box-L">
+          <h1 class="page-h1">Reti, associazioni, progetti</h1>
+          <p>
+            Una mappatura e rubrica di realtà che promuovono progetti e risorse per l’educazione sessuo-affettiva transfemminista in Europa,
+            <br>visualizzabile anche dalla <a href="mappe.html" class="text-br-link">mappa geolocalizzata</a>.
+          </p>
 
-					<!-- Lista associazioni, gruppi, collettivi... -->
-					<section class="box-L">
-						<h1 class="page-h1">Reti, associazioni, progetti</h1>
-						<p>
-							Una mappatura e rubrica di realtà che promuovono progetti e risorse per l’educazione sessuo-affettiva transfemminista in Europa,
-							<br />
-							visualizzabile anche dalla <a href="mappe.html" class="text-br-link">mappa geolocalizzata</a>.
-						</p>
+          <!-- Filtro alfabetico semplificato -->
+          <div class="filtro-lettere">
+            <span>Filtra per lettera:</span>
+            <div class="lettere">
+              <a href="#A">A</a>
+              <a href="#C">C</a>
+              <a href="#E">E</a>
+              <a href="#G">G</a>
+              <a href="#O">O</a>
+              <a href="#S">S</a>
+            </div>
+          </div>
 
-						<div class="associazione-card">
-							<h2><a href="https://www.acceptromania.ro/" target="_blank">Accept</a></h2>
-							<p><strong>Paese:</strong> Romania</p>
-							<p><strong>Ambito:</strong> Advocacy, formazione LGBTQ+, educazione</p>
-							<p>
-								<a href="https://www.acceptromania.ro/" target="_blank" class="text-inline-link">🌐 Visita il sito</a> |
-								<a href="mappe.html#accept" class="text-inline-link">🗺️ Vedi sulla mappa</a>
-							</p>
-						</div>
+          <!-- Tabella -->
+          <div class="tabella-associazioni">
+            <div class="riga intestazione">
+              <div>Nome</div>
+              <div>Paese</div>
+              <div>Ambito</div>
+              <div>Sito</div>
+              <div>Mappa</div>
+            </div>
 
-						<div class="associazione-card">
-							<h2><a href="https://www.educarealledifferenze.it/" target="_blank">Educare alle Differenze</a></h2>
-							<p><strong>Paese:</strong> Italia</p>
-							<p><strong>Ambito:</strong> Educazione alle differenze, formazione, attivismo</p>
-							<p>
-								<a href="https://www.educarealledifferenze.it/" target="_blank" class="text-inline-link">🌐 Visita il sito</a> |
-								<a href="mappe.html#educare" class="text-inline-link">🗺️ Vedi sulla mappa</a>
-							</p>
-						</div>
+            <!-- Riga: Accept -->
+            <div class="riga" id="A">
+              <div>Accept</div>
+              <div>Romania</div>
+              <div>Advocacy, educazione LGBTQ+</div>
+              <div><a href="https://www.acceptromania.ro/" target="_blank">🌐</a></div>
+              <div><a href="mappe.html#accept">🗺️</a></div>
+            </div>
 
-						<div class="associazione-card">
-							<h2><a href="https://conexus.cat/es/proyecto-gender-education-for-teenage-boys/" target="_blank">Gender Education – Conexus</a></h2>
-							<p><strong>Paese:</strong> Spagna (Barcellona)</p>
-							<p><strong>Ambito:</strong> Educazione di genere con adolescenti, prevenzione maschilità tossica</p>
-							<p>
-								<a href="https://conexus.cat/es/proyecto-gender-education-for-teenage-boys/" target="_blank" class="text-inline-link">🌐 Visita il sito</a> |
-								<a href="mappe.html#conexus" class="text-inline-link">🗺️ Vedi sulla mappa</a>
-							</p>
-						</div>
+            <!-- Educare alle differenze -->
+            <div class="riga" id="E">
+              <div>Educare alle Differenze</div>
+              <div>Italia</div>
+              <div>Educazione alle differenze, attivismo</div>
+              <div><a href="https://www.educarealledifferenze.it/" target="_blank">🌐</a></div>
+              <div><a href="mappe.html#educare">🗺️</a></div>
+            </div>
 
-						<div class="associazione-card">
-							<h2><a href="https://oiieurope.org/" target="_blank">OII Europe</a></h2>
-							<p><strong>Paese:</strong> Germania (Berlino)</p>
-							<p><strong>Ambito:</strong> Diritti intersex, formazione e advocacy</p>
-							<p>
-								<a href="https://oiieurope.org/" target="_blank" class="text-inline-link">🌐 Visita il sito</a> |
-								<a href="mappe.html#oii" class="text-inline-link">🗺️ Vedi sulla mappa</a>
-							</p>
-						</div>
+            <!-- Gender Education - Conexus -->
+            <div class="riga" id="G">
+              <div>Gender Education – Conexus</div>
+              <div>Spagna</div>
+              <div>Prevenzione maschilità tossica</div>
+              <div><a href="https://conexus.cat/es/proyecto-gender-education-for-teenage-boys/" target="_blank">🌐</a></div>
+              <div><a href="mappe.html#conexus">🗺️</a></div>
+            </div>
 
-						<div class="associazione-card">
-							<h2><a href="https://www.scosse.org/" target="_blank">Scosse</a></h2>
-							<p><strong>Paese:</strong> Italia</p>
-							<p><strong>Ambito:</strong> Educazione sessuale, genere, contrasto agli stereotipi</p>
-							<p>
-								<a href="https://www.scosse.org/" target="_blank" class="text-inline-link">🌐 Visita il sito</a> |
-								<a href="mappe.html#scosse" class="text-inline-link">🗺️ Vedi sulla mappa</a>
-							</p>
-						</div>
+            <!-- OuTrans -->
+            <div class="riga" id="O">
+              <div>OuTrans</div>
+              <div>Francia</div>
+              <div>Salute e visibilità trans</div>
+              <div><a href="https://www.outrans.org/" target="_blank">🌐</a></div>
+              <div><a href="mappe.html#outrans">🗺️</a></div>
+            </div>
 
-						<div class="associazione-card">
-							<h2><a href="https://www.sexualwellbeing.ie/" target="_blank">Sexual Wellbeing – HSE</a></h2>
-							<p><strong>Paese:</strong> Irlanda</p>
-							<p><strong>Ambito:</strong> Educazione sessuale, salute e benessere</p>
-							<p>
-								<a href="https://www.sexualwellbeing.ie/" target="_blank" class="text-inline-link">🌐 Visita il sito</a> |
-								<a href="mappe.html#hse" class="text-inline-link">🗺️ Vedi sulla mappa</a>
-							</p>
-						</div>
+            <!-- OII Europe -->
+            <div class="riga" id="O">
+              <div>OII Europe</div>
+              <div>Germania</div>
+              <div>Diritti intersex, advocacy</div>
+              <div><a href="https://oiieurope.org/" target="_blank">🌐</a></div>
+              <div><a href="mappe.html#oii">🗺️</a></div>
+            </div>
 
-						<div class="associazione-card">
-							<h2><a href="https://www.outrans.org/" target="_blank">OuTrans</a></h2>
-							<p><strong>Paese:</strong> Francia</p>
-							<p><strong>Ambito:</strong> Supporto alla salute trans, informazione e visibilità</p>
-							<p>
-								<a href="https://www.outrans.org/" target="_blank" class="text-inline-link">🌐 Visita il sito</a> |
-								<a href="mappe.html#outrans" class="text-inline-link">🗺️ Vedi sulla mappa</a>
-							</p>
-						</div>
-					</section>
-				</div>
-			</section>
-		</main>
+            <!-- Scosse -->
+            <div class="riga" id="S">
+              <div>Scosse</div>
+              <div>Italia</div>
+              <div>Educazione sessuale, genere</div>
+              <div><a href="https://www.scosse.org/" target="_blank">🌐</a></div>
+              <div><a href="mappe.html#scosse">🗺️</a></div>
+            </div>
 
-		<!-- Footer -->
-		<footer>
-		   <p>© 2025 TERE – Progetto universitario. Powered by transfeminist values.</p>
-		</footer>
-    
-	</body>
+            <!-- Sexual Wellbeing - HSE -->
+            <div class="riga" id="S">
+              <div>Sexual Wellbeing – HSE</div>
+              <div>Irlanda</div>
+              <div>Educazione sessuale e benessere</div>
+              <div><a href="https://www.sexualwellbeing.ie/" target="_blank">🌐</a></div>
+              <div><a href="mappe.html#hse">🗺️</a></div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 TERE – Progetto universitario. Powered by transfeminist values.</p>
+  </footer>
+</body>
 </html>
+
