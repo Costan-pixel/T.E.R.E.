@@ -516,18 +516,6 @@ a.text-br-link:hover {
   text-align: justify;
 }
 
-.box-L a.text-inline-link {
-  color: inherit;
-  font-weight: inherit;
-  text-decoration: none;
-  transition: color 0.2s ease-in-out;
-}
-
-.box-L a.text-inline-link:hover {
-  color: #6f5aa7;
-  text-decoration: underline;
-}
-
 /* BOX MEDIUM */
 .box-M {
   background-color: #f6e1ee;
@@ -631,39 +619,19 @@ a.text-br-link:hover {
   color: #3a3a3a;
 }
 
+.tabella-associazioni {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  font-size: 1em;
+  overflow-x: auto;
+}
 
 /* ------------------------------
             STILI CARD 
 ------------------------------ */
 
-/*(card associazioni e reti)*/
-.associazione-card {
-  padding: 1.2em;
-  border-bottom: 1px solid #ccc;
-  margin-bottom: 1.5em;
-}
 
-.associazione-card h2 {
-  font-size: 1.3em;
-  color: #6f5aa7;
-  margin-bottom: 0.5em;
-}
-
-.associazione-card a {
-  color: #6f5aa7;
-  text-decoration: none;
-}
-
-.associazione-card a:hover {
-  color: #b72f68;
-  text-decoration: underline;
-}
-
-.associazione-card p {
-  font-size: 1.05em;
-  margin-bottom: 0.5em;
-  line-height: 1.5;
-}
 
 /* ------------------------------
    RESPONSIVE
