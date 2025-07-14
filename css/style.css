@@ -606,6 +606,18 @@ a.text-br-link:hover {
   color: #fff;
 }
 
+  /*BOX S sidebar materiali*/
+.materiali-sidebar label {
+  margin-bottom: 0.4em;
+  display: block;
+  font-size: 0.95em;
+}
+
+.materiali-sidebar input[type="checkbox"] {
+  margin-right: 0.4em;
+}
+
+
 /* ------------------------------
             TABELLE 
 ------------------------------ */
@@ -635,11 +647,50 @@ a.text-br-link:hover {
   color: #3a3a3a;
 }
 
+/*griglia materiali */
+.materiali-griglia {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2em;
+  flex: 3 1 700px;
+}
+
+
 /* ------------------------------
-   CARD 
+              CARD 
 ------------------------------ */
 
-/*  */
+/* card materiali */
+.materiale-card {
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 12px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease-in-out;
+  text-align: center;
+}
+
+.materiale-card:hover {
+  transform: scale(1.02);
+}
+
+.materiale-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 0.8em;
+}
+
+.materiale-card h3 {
+  font-size: 1.2em;
+  color: #6f5aa7;
+  margin-bottom: 0.4em;
+}
+
+.materiale-card p {
+  font-size: 0.95em;
+  color: #3a3a3a;
+}
 
 /* ------------------------------
    RESPONSIVE (mobile, tablet)
