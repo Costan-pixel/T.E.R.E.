@@ -406,6 +406,8 @@ main {
 /* ------------------------------
    STILI TESTUALI e HEADINGS
 ------------------------------ */
+
+/* Titolo principale pagine interne */
 .page-h1 {
   font-family: 'Poppins', sans-serif;
   font-size: 2.6em;
@@ -423,15 +425,11 @@ main {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  .page-h1 {
-    font-size: 2em;
-  }
-}
-
 /* ------------------------------
-   STILI LINK
+   LINK (inline, br)
 ------------------------------ */
+  
+/*inline link generali*/
 a.text-inline-link {
   color: inherit;
   font-weight: inherit;
@@ -444,6 +442,7 @@ a.text-inline-link:hover {
   text-decoration: underline;
 }
 
+/*br link generali*/
 a.text-br-link {
   display: inline-block;
   margin-top: 1em;
@@ -458,7 +457,7 @@ a.text-br-link:hover {
 }
 
 /* ------------------------------
-   STILI SECTION
+   SECTION (contenitore base)
 ------------------------------ */
 .section-base {
   background-color: #ffffff;
@@ -471,7 +470,7 @@ a.text-br-link:hover {
 }
 
 /* ------------------------------
-   STILI MARGIN / SPACING
+   SPACING (margini e padding generici)
 ------------------------------ */
 .margin-top-sm { margin-top: 2em; }
 .margin-top-md { margin-top: 3em; }
@@ -482,8 +481,10 @@ a.text-br-link:hover {
 }
 
 /* ------------------------------
-   STILI BOX
+              BOX
 ------------------------------ */
+
+/* BOX L – contenitori a tutta larghezza */
 .box-L {
   background-color: #f6e1ee;
   border-left: 4px solid #6f5aa7;
@@ -516,11 +517,11 @@ a.text-br-link:hover {
   text-align: justify;
 }
 
-/* BOX MEDIUM */
+/* BOX M – contenuto principale affiancato da sidebar */
 .box-M {
   background-color: #f6e1ee;
   border-left: 4px solid #6f5aa7;
-  padding: 2.5em 1.8em;
+  padding: 3em 2em;
   margin: 0 auto;
   max-width: 850px;
   border-radius: 12px;
@@ -528,7 +529,7 @@ a.text-br-link:hover {
   text-align: left;
 }
 
-/* BOX SMALL */
+/* BOX S – sidebar, form, mini-box */
 .box-S {
   background-color: #f6e1ee;
   border-left: 4px solid #6f5aa7;
@@ -540,11 +541,7 @@ a.text-br-link:hover {
   text-align: left;
 }
 
-/* ------------------------------
-       LISTE / CONTENITORI
------------------------------- */
-
-/*(sidebar + lista associazioni)*/
+/* BOX S – sidebar associazioni e reti*/
 .associazioni-container {
   display: flex;
   flex-wrap: wrap;
@@ -569,14 +566,8 @@ a.text-br-link:hover {
   margin-bottom: 1em;
 }
 
-.associazioni-section .box-L {
-  flex: 3 1 700px;
-}
-
-/*(filtro lettere ordine alfabetico)*/
-
-.filtro-lettere {
-  margin-bottom: 1em;
+.associazioni-sidebar .filtro-lettere {
+  margin-top: 1em;
   text-align: center;
 }
 
@@ -593,14 +584,16 @@ a.text-br-link:hover {
 }
 
 /* ------------------------------
-             TABELLE
+            TABELLE 
 ------------------------------ */
 
+/*tabella associazioni*/
 .tabella-associazioni {
   display: flex;
   flex-direction: column;
   gap: 0.5em;
   font-size: 1em;
+  overflow-x: auto;
 }
 
 .tabella-associazioni .riga {
@@ -619,22 +612,14 @@ a.text-br-link:hover {
   color: #3a3a3a;
 }
 
-.tabella-associazioni {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
-  font-size: 1em;
-  overflow-x: auto;
-}
-
 /* ------------------------------
-            STILI CARD 
+   CARD 
 ------------------------------ */
 
-
+/*  */
 
 /* ------------------------------
-   RESPONSIVE
+   RESPONSIVE (mobile, tablet)
 ------------------------------ */
 @media (max-width: 768px) {
   .page-h1 {
@@ -661,3 +646,5 @@ footer {
   font-size: 0.9em;
   margin-top: 3em;
 }
+
+
