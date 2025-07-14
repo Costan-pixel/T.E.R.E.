@@ -45,7 +45,7 @@ a.text_inline_link:hover {
   margin-top: 1em;
   color: #b72f68;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 
@@ -53,6 +53,9 @@ a.text_inline_link:hover {
   color: #6f5aa7;
 }
 
+/* ------------------------------
+             INDEX
+------------------------------ */
 /* HEADER */
 /* NAVBAR */
 .navbar {
@@ -362,7 +365,7 @@ main {
   margin-top: 1em;
   color: #b72f68;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .section-spacing {
