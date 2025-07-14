@@ -2,11 +2,124 @@
 <html lang="it">
 <head>
   <meta charset="UTF-8" />
-  <title>Materiali – TERE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TERE – Transfeminist Education on Relationships and Emotions</title>
+  <link rel="icon" href="img/favicon.png" type="image/x-icon"> <!-- Icona cuore: creata da Futuer - Flaticon, https://www.flaticon.com/free-icons/heart -->
+
+  <!-- Metadati Dublin Core -->
+  <meta name="DC.title" content="TERE – Transfeminist Education on Relationships and Emotions" />
+  <meta name="DC.creator" content="Costanza Citti" />
+  <meta name="DC.language" content="it" />
+  <meta name="DC.subject" content="Educazione sessuale, transfemminismo, emozioni, relazioni, diritti, studi di genere" />
+  <meta name="DC.description" content="Un archivio digitale di risorse e una piattaforma per progetti e iniziative sull’educazione sessuo-affettiva in chiave transfemminista e intersezionale in Europa." />
+ 
+  <!-- Meta descrizione SEO -->
+  <meta name="description" content="Un archivio digitale e una piattaforma transfemminista per l'educazione sessuo-affettiva in Europa. Risorse, progetti, eventi e mappe per ri-educarci e trasformare." />
+  
+  <!-- Open Graph / Social Preview -->
+  <meta property="og:title" content="TERE – Transfeminist Education on Relationships and Emotions" />
+  <meta property="og:description" content="Un archivio digitale e una piattaforma di risorse sull’educazione sessuo-affettiva in chiave transfemminista." />
+  <meta property="og:image" content="https://costan-pixel.github.io/T.E.R.E./img/preview.jpg" />
+  <meta property="og:url" content="https://costan-pixel.github.io/T.E.R.E/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="it_IT" />
+
+  <!-- Link al CSS -->
   <link rel="stylesheet" href="css/style.css" />
 </head>
+  
 <body>
-  <h1>Materiali e Risorse</h1>
-  <p>Contenuto in costruzione…</p>
-</body>
-</html>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html" class="site-name">Home</a></li>
+      <li><a href="ilprogetto_tere.html">Il progetto TERE</a></li>
+      <li><a href="reti.html">Reti e Progetti</a></li>
+      <li><a href="materiali.html">Materiali e Risorse</a></li>
+      <li><a href="iniziative_news.html">Iniziative e News</a></li>
+      <li><a href="mappe.html">Mappe</a></li>
+      <li><a href="proponi.html">Proponi</a></li>
+      <li>
+        <div class="language-switcher">
+          <label for="language-selector" class="sr-only">Seleziona lingua</label>
+          <select name="lingua" id="language-selector">
+            <option value="it">IT</option>
+            <option value="en">EN</option>
+            <option value="fr">FR</option>
+            <option value="es">ES</option>
+          </select>
+          <a href="linguaggio.html" title="Il linguaggio che utilizziamo" aria-label="Informazioni sul linguaggio usato">ℹ️</a>
+        </div>
+      </li>
+    </ul>
+  </nav>
+
+  <main>
+  <section class="section-base materiali-page">
+    <h1 class="page-h1">Materiali</h1>
+    <div class="associazioni-container">
+
+      <!-- SIDEBAR FILTRI -->
+      <aside class="box-S materiali-sidebar">
+        <form id="filtri-materiali">
+
+          <label><strong>🎞️ Formato</strong></label>
+          <label><input type="checkbox" name="formato" value="video"> Video</label>
+          <label><input type="checkbox" name="formato" value="podcast"> Podcast</label>
+          <label><input type="checkbox" name="formato" value="libro"> Libro</label>
+          <label><input type="checkbox" name="formato" value="fumetto"> Fumetto</label>
+          <label><input type="checkbox" name="formato" value="immagine"> Immagine</label>
+          <label><input type="checkbox" name="formato" value="attività"> Attività</label>
+
+          <label><strong>🧒 Fascia d’età</strong></label>
+          <label><input type="checkbox" name="eta" value="infanzia"> Infanzia</label>
+          <label><input type="checkbox" name="eta" value="primaria"> Primaria</label>
+          <label><input type="checkbox" name="eta" value="secondaria"> Secondaria</label>
+          <label><input type="checkbox" name="eta" value="giovani"> Giovani adult3</label>
+          <label><input type="checkbox" name="eta" value="adulti"> Adult3</label>
+
+          <label><strong>🌍 Lingua</strong></label>
+          <label><input type="checkbox" name="lingua" value="italiano"> Italiano</label>
+          <label><input type="checkbox" name="lingua" value="inglese"> Inglese</label>
+          <label><input type="checkbox" name="lingua" value="spagnolo"> Spagnolo</label>
+          <label><input type="checkbox" name="lingua" value="portoghese"> Portoghese</label>
+          <label><input type="checkbox" name="lingua" value="francese"> Francese</label>
+
+          <label><strong>🏷️ Tematiche</strong></label>
+          <label><input type="checkbox" name="tema" value="consenso"> Consenso</label>
+          <label><input type="checkbox" name="tema" value="identita"> Identità e orientamento</label>
+          <label><input type="checkbox" name="tema" value="corpo"> Corpo e sessualità</label>
+          <label><input type="checkbox" name="tema" value="relazioni"> Relazioni</label>
+          <label><input type="checkbox" name="tema" value="linguaggio"> Linguaggio inclusivo</label>
+          <label><input type="checkbox" name="tema" value="intersezionalita"> Intersezionalità</label>
+        </form>
+      </aside>
+
+      <!-- CARD MATERIALI -->
+      <div class="materiali-griglia">
+
+        <!-- Item 1 -->
+        <div class="materiale-card" data-formato="video" data-eta="primaria" data-lingua="inglese" data-tema="consenso">
+          <img src="img/consent-for-kids.jpg" alt="Consent for Kids thumbnail">
+          <h3><a href="https://www.youtube.com/watch?v=h3nhM9UlJjc" target="_blank">Consent for Kids</a></h3>
+          <p>🎞️ Video | 🧒 Primaria | 🇬🇧 Inglese | 🏷️ Consenso</p>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="materiale-card" data-formato="podcast" data-eta="giovani" data-lingua="italiano" data-tema="relazioni">
+          <img src="img/cuore-scoperto.jpg" alt="Podcast Il cuore scoperto">
+          <h3><a href="https://open.spotify.com/show/5OrX1XzDRmXc3Tq0GH5VE8" target="_blank">Il cuore scoperto</a></h3>
+          <p>🎧 Podcast | 🎓 Giovani adult3 | 🇮🇹 Italiano | 🏷️ Relazioni</p>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="materiale-card" data-formato="libro" data-eta="infanzia" data-lingua="portoghese" data-tema="stereotipi">
+          <img src="img/todos-fazemos.jpg" alt="Todos fazemos tudo">
+          <h3><a href="https://www.ottimomassimo.it/products/todos-fazemso-tudo" target="_blank">Todos fazemos tudo</a></h3>
+          <p>📖 Libro illustrato | 🧒 Infanzia | 🇵🇹 Portoghese | 🏷️ Stereotipi</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
