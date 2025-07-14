@@ -644,6 +644,11 @@ a.text-br-link:hover {
   .section-base {
     padding: 1.5em;
   }
+
+  .tabella-associazioni .riga {
+    font-size: 0.9em;
+    grid-template-columns: 1.8fr 1fr 2fr 0.5fr 0.5fr;
+  }
 }
 
 /* ------------------------------
