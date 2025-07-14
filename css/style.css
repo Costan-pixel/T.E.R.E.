@@ -523,7 +523,8 @@ a.text-br-link:hover {
   border-left: 4px solid #6f5aa7;
   padding: 3em 2em;
   margin: 0 auto;
-  max-width: 850px;
+  flex: 3 1 700px;
+  max-width: 950px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
   text-align: left;
@@ -541,7 +542,7 @@ a.text-br-link:hover {
   text-align: left;
 }
 
-/* BOX S – sidebar associazioni e reti*/
+/* BOX S sidebar associazioni e reti*/
 .associazioni-container {
   display: flex;
   flex-wrap: wrap;
@@ -552,35 +553,57 @@ a.text-br-link:hover {
 .associazioni-sidebar {
   flex: 1 1 220px;
   max-width: 250px;
+  position: sticky;
+  top: 120px;
+  align-self: flex-start;
   background-color: #f6e1ee;
   padding: 1.5em;
   border-radius: 12px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
 }
 
-.associazioni-sidebar label,
-.associazioni-sidebar select,
-.associazioni-sidebar input {
+.associazioni-sidebar label {
+  font-weight: bold;
   display: block;
-  width: 100%;
-  margin-bottom: 1em;
+  margin-bottom: 0.4em;
+  color: #3a3a3a;
 }
 
-.associazioni-sidebar .filtro-lettere {
+.associazioni-sidebar select,
+.associazioni-sidebar input {
+  width: 100%;
+  margin-bottom: 1.2em;
+  padding: 0.5em;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.filtro-lettere {
   margin-top: 1em;
-  text-align: center;
+}
+
+.filtro-lettere .lettere {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4em;
+  margin-top: 0.5em;
 }
 
 .filtro-lettere .lettere a {
-  margin: 0 0.4em;
   text-decoration: none;
   font-weight: bold;
   color: #6f5aa7;
-  font-size: 1em;
+  padding: 0.3em 0.5em;
+  border-radius: 6px;
+  background-color: #fff;
+  border: 1px solid #6f5aa7;
+  font-size: 0.9em;
 }
 
 .filtro-lettere .lettere a:hover {
-  color: #b72f68;
+  background-color: #6f5aa7;
+  color: #fff;
 }
 
 /* ------------------------------
