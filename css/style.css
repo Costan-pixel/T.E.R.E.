@@ -626,7 +626,8 @@ a.text-br-link:hover {
   border-radius: 12px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
   border-left: none;
-  max-width: 260px;
+  margin-left: 0
+  max-width: 250px;
   flex: 0 0 240px;
 }
 
@@ -751,7 +752,12 @@ a.text-br-link:hover {
 
 .card-materiali img {
   width: 100%;
-  height: auto;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.8em;
+}
+
   border-radius: 8px;
   margin-bottom: 0.8em;
 }
