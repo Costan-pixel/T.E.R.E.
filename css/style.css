@@ -743,7 +743,8 @@ a.text-br-link:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 320px;    
+  min-height: 320px;
+  box sizing: border-box; 
 
 }
 
