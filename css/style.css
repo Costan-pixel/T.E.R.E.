@@ -650,6 +650,41 @@ a.text-br-link:hover {
 }
 
 /* ------------------------------
+             FILTRI
+------------------------------ */
+
+.dropdown-container {
+  display: none;
+  padding: 0.5em 1em;
+  margin-bottom: 1em;
+}
+
+.dropdown-btn {
+  background-color: #d7d2e7;
+  color: #3a3a3a;
+  padding: 0.8em 1em;
+  width: 100%;
+  border: none;
+  text-align: left;
+  font-size: 1em;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-bottom: 0.4em;
+  transition: background-color 0.2s ease;
+}
+
+.dropdown-btn:hover {
+  background-color: #cfcbe3;
+}
+
+.sidebar-materiali label {
+  display: block;
+  margin: 0.4em 0;
+}
+
+
+/* ------------------------------
        TABELLE e GRIGLIE
 ------------------------------ */
 
