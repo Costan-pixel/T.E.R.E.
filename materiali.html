@@ -13,10 +13,10 @@
   <meta name="DC.subject" content="Educazione sessuale, transfemminismo, emozioni, relazioni, diritti, studi di genere" />
   <meta name="DC.description" content="Un archivio digitale di risorse e una piattaforma per progetti e iniziative sull’educazione sessuo-affettiva in chiave transfemminista e intersezionale in Europa." />
 
-  <!-- Meta descrizione SEO -->
+  <!-- Meta SEO -->
   <meta name="description" content="Un archivio digitale e una piattaforma transfemminista per l'educazione sessuo-affettiva in Europa. Risorse, progetti, eventi e mappe per ri-educarci e trasformare." />
 
-  <!-- Open Graph / Social Preview -->
+  <!-- Open Graph -->
   <meta property="og:title" content="TERE – Transfeminist Education on Relationships and Emotions" />
   <meta property="og:description" content="Un archivio digitale e una piattaforma di risorse sull’educazione sessuo-affettiva in chiave transfemminista." />
   <meta property="og:image" content="https://costan-pixel.github.io/T.E.R.E./img/preview.jpg" />
@@ -53,19 +53,21 @@
     </ul>
   </nav>
 
+  <!-- Contenuto principale -->
   <main>
     <section class="section-base materiali-page first-section">
       <h1 class="page-h1">Materiali</h1>
 
-      <!-- Contenitore semantico principale -->
-      <div class="container_section materiali">
+      <!-- WRAPPER GENERALE -->
+      <div class="container_section.materiali">
 
-        <!-- Box L contenente sidebar + griglia card -->
-        <div class="boxL materiali">
+        <!-- BOX L: sidebar + griglia card -->
+        <div class="boxL.materiali">
 
-          <!-- Sidebar con i filtri -->
-          <aside class="sidebar materiali">
+          <!-- SIDEBAR FILTRI -->
+          <aside class="sidebar.materiali">
             <form id="filtri-materiali">
+
               <label><strong>🎞️ Formato</strong></label>
               <label><input type="checkbox" name="formato" value="tutti"> Tutti</label>
               <label><input type="checkbox" name="formato" value="video"> Video</label>
@@ -102,32 +104,33 @@
             </form>
           </aside>
 
-          <!-- Griglia delle card materiali -->
-          <div class="griglia materiali">
+          <!-- GRIGLIA CARD MATERIALI -->
+          <div class="griglia.materiali">
+
             <!-- CARD 1 -->
-            <div class="card materiali" data-formato="video" data-eta="primaria" data-lingua="inglese" data-tema="consenso">
+            <div class="card.materiali" data-formato="video" data-eta="primaria" data-lingua="inglese" data-tema="consenso">
               <img src="img/materiali/consent_forkids_video.png" alt="Consent for Kids thumbnail">
               <h3><a href="https://www.youtube.com/watch?v=h3nhM9UlJjc" target="_blank">Consent for Kids</a></h3>
               <p>🎞️ Video | 🧒 Primaria | 🇬🇧 Inglese | 🏷️ Consenso</p>
             </div>
 
             <!-- CARD 2 -->
-            <div class="card materiali" data-formato="podcast" data-eta="giovani" data-lingua="italiano" data-tema="relazioni">
+            <div class="card.materiali" data-formato="podcast" data-eta="giovani" data-lingua="italiano" data-tema="relazioni">
               <img src="img/materiali/ilcuore_scoperto.jpeg" alt="Podcast Il cuore scoperto">
               <h3><a href="https://open.spotify.com/show/5OrX1XzDRmXc3Tq0GH5VE8" target="_blank">Il cuore scoperto</a></h3>
               <p>🎧 Podcast | 🎓 Giovani adult3 | 🇮🇹 Italiano | 🏷️ Relazioni</p>
             </div>
 
             <!-- CARD 3 -->
-            <div class="card materiali" data-formato="libro" data-eta="infanzia" data-lingua="portoghese" data-tema="stereotipi">
+            <div class="card.materiali" data-formato="libro" data-eta="infanzia" data-lingua="portoghese" data-tema="stereotipi">
               <img src="img/materiali/todos_fazemos.jpeg" alt="Todos fazemos tudo">
-              <h3><a href="https://www.ottimomassimo.it/products/todos-fazemso-tudo" target="_blank">Todos fazemos tutto</a></h3>
+              <h3><a href="https://www.ottimomassimo.it/products/todos-fazemso-tudo" target="_blank">Todos fazemos tudo</a></h3>
               <p>📖 Libro illustrato | 🧒 Infanzia | 🇵🇹 Portoghese | 🏷️ Stereotipi</p>
             </div>
-          </div>
 
-        </div>
-      </div>
+          </div> <!-- fine griglia -->
+        </div> <!-- fine boxL -->
+      </div> <!-- fine container -->
     </section>
   </main>
 </body>
