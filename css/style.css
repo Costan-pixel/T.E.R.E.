@@ -626,6 +626,8 @@ a.text-br-link:hover {
   border-radius: 12px;
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
   border-left: none;
+  max-width: 260px;
+  flex: 0 0 240px;
 }
 
 
