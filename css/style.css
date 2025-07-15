@@ -473,10 +473,9 @@ a.text-br-link:hover {
 }
 
 .container_section.materiali {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 2em;
-  align-items: flex-start;
+  display: block; 
+  max-width: 1100px;
+  margin: 0 auto;
 }
 
 /* ------------------------------
@@ -618,15 +617,13 @@ a.text-br-link:hover {
 
   /*BOX S sidebar specifica materiali*/
 .sidebar.materiali {
-  flex: 1 1 220px;
-  max-width: 250px;
-  position: sticky;
-  top: 120px;
-  align-self: flex-start;
+  flex: 1 1 240px;
+  max-width: 260px;
   background-color: #f6e1ee;
   padding: 1.5em;
   border-radius: 12px;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+  border-left: 4px solid #6f5aa7;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
 }
 
 .sidebar.materiali label {
@@ -638,6 +635,19 @@ a.text-br-link:hover {
 .sidebar.materiali input[type="checkbox"] {
   margin-right: 0.4em;
 }
+
+/* box L materiali */
+.boxL.materiali {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  padding: 2em;
+  background-color: #f6e1ee;
+  border-left: 4px solid #6f5aa7;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+}
+
 
 /* ------------------------------
        TABELLE e GRIGLIE
@@ -670,12 +680,11 @@ a.text-br-link:hover {
 
 /* Contenitore -griglia card materiali */
 .griglia.materiali {
+  flex: 3 1 700px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2em;
-  flex: 3 1 700px;
 }
-
 
 /* ------------------------------
               CARD 
