@@ -645,7 +645,7 @@ a.text-br-link:hover {
   flex-wrap: nowrap;
   align-items: flex-start;
   gap: 2em;
-  padding: 2em;
+  padding: 2em 1.2em;
   background-color: #ffffff;
   border-left: none;
   border-radius: 12px;
@@ -736,9 +736,9 @@ a.text-br-link:hover {
   margin-bottom: 2em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
   text-align: left;
-  max-width: 320px;
+  max-width: 260px;
   width: 100%;
-  flex: 1 1 300px;
+  flex: 1 1 240px;
 }
 
 .card-materiali img {
@@ -749,13 +749,13 @@ a.text-br-link:hover {
 }
 
 .card-materiali h3 {
-  font-size: 1.2em;
+  font-size: 1em;
   margin-bottom: 0.5em;
   color: #6f5aa7;
 }
 
 .card-materiali p {
-  font-size: 0.95em;
+  font-size: 0.85em;
   line-height: 1.4;
 }
 
