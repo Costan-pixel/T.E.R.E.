@@ -545,7 +545,8 @@ a.text-br-link:hover {
   border-left: 4px solid #6f5aa7;
   padding: 2em 1.5em;
   margin: 0 auto;
-  max-width: 600px;
+  max-width: 350px
+  min-height: 1200px
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
   text-align: left;
