@@ -616,15 +616,18 @@ a.text-br-link:hover {
 }
 
   /*BOX S sidebar specifica materiali*/
+
 .sidebar-materiali {
-  flex: O 0 240px;
-  max-width: 260px;
+  position: sticky;
+  top: 120px; 
+  align-self: flex-start;
   background-color: #d5bde3;
   padding: 1.5em;
   border-radius: 12px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
   border-left: none;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.04);
 }
+
 
 .sidebar-materiali label {
   margin-bottom: 0.4em;
@@ -754,6 +757,15 @@ a.text-br-link:hover {
 .card-materiali p {
   font-size: 0.95em;
   line-height: 1.4;
+}
+
+.card-materiali {
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.card-materiali:hover {
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.12);
 }
 
 /* ------------------------------
