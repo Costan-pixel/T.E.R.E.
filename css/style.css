@@ -617,7 +617,7 @@ a.text-br-link:hover {
 
   /*BOX S sidebar specifica materiali*/
 .sidebar.materiali {
-  flex: 1 1 240px;
+  flex: O 0 240px;
   max-width: 260px;
   background-color: #f6e1ee;
   padding: 1.5em;
@@ -680,7 +680,7 @@ a.text-br-link:hover {
 
 /* Contenitore -griglia card materiali */
 .griglia.materiali {
-  flex: 3 1 700px;
+  flex: 1 1 auto; 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2em;
