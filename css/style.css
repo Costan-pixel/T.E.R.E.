@@ -399,6 +399,9 @@ main {
   }
 }
 
+
+
+
 /* ------------------------------------------
            STILI PER PAGINE INTERNE 
 -------------------------------------------*/
@@ -426,7 +429,7 @@ main {
 }
 
 /* ------------------------------
-   LINK (inline, br)
+      LINK (inline, br)
 ------------------------------ */
   
 /*inline link generali*/
@@ -613,7 +616,19 @@ a.text-br-link:hover {
   color: #fff;
 }
 
-  /*BOX S sidebar materiali*/
+  /*BOX S sidebar specifica materiali*/
+.sidebar.materiali {
+  flex: 1 1 220px;
+  max-width: 250px;
+  position: sticky;
+  top: 120px;
+  align-self: flex-start;
+  background-color: #f6e1ee;
+  padding: 1.5em;
+  border-radius: 12px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
+}
+
 .sidebar.materiali label {
   margin-bottom: 0.4em;
   display: block;
@@ -623,7 +638,6 @@ a.text-br-link:hover {
 .sidebar.materiali input[type="checkbox"] {
   margin-right: 0.4em;
 }
-
 
 /* ------------------------------
        TABELLE e GRIGLIE
