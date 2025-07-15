@@ -469,6 +469,13 @@ a.text-br-link:hover {
   line-height: 1.7;
 }
 
+.container_section.materiali {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  align-items: flex-start;
+}
+
 /* ------------------------------
    SPACING (margini e padding generici)
 ------------------------------ */
@@ -607,13 +614,13 @@ a.text-br-link:hover {
 }
 
   /*BOX S sidebar materiali*/
-.materiali-sidebar label {
+.sidebar.materiali label {
   margin-bottom: 0.4em;
   display: block;
   font-size: 0.95em;
 }
 
-.materiali-sidebar input[type="checkbox"] {
+.sidebar.materiali input[type="checkbox"] {
   margin-right: 0.4em;
 }
 
@@ -648,7 +655,7 @@ a.text-br-link:hover {
 }
 
 /* Contenitore -griglia card materiali */
-.materiali-griglia {
+.griglia.materiali {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2em;
@@ -661,7 +668,7 @@ a.text-br-link:hover {
 ------------------------------ */
  
 /*card materiali*/
-.materiale-card {
+.card.materiali {
   background-color: #d7d2e7;
   border-radius: 12px;
   padding: 1.2em;
@@ -673,20 +680,20 @@ a.text-br-link:hover {
   flex: 1 1 300px;
 }
 
-.materiale-card img {
+.card.materiali img {
   width: 100%;
   height: auto;
   border-radius: 8px;
   margin-bottom: 0.8em;
 }
 
-.materiale-card h3 {
+.card.materiali h3 {
   font-size: 1.2em;
   margin-bottom: 0.5em;
   color: #6f5aa7;
 }
 
-.materiale-card p {
+.card.materiali p {
   font-size: 0.95em;
   line-height: 1.4;
 }
