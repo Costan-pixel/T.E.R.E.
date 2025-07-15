@@ -65,45 +65,59 @@
         <!-- BOX L: sidebar + griglia card -->
         <div class="boxL-materiali">
 
-          <!-- SIDEBAR FILTRI -->
+          <!-- SIDEBAR + FILTRI CON DROPDOWN -->
           <aside class="sidebar-materiali">
-            <form id="filtri-materiali">
+            <button class="dropdown-btn">🎞️ Supporto principale ▾</button>
+            <div class="dropdown-container">
+                  <label><input type="checkbox" name="formato" value="testo"> Testo</label>
+                  <label><input type="checkbox" name="formato" value="immagine"> Immagine</label>
+                  <label><input type="checkbox" name="formato" value="video"> Video</label>
+                  <label><input type="checkbox" name="formato" value="audio"> Audio</label>
+            </div>
 
-              <label><strong>🎞️ Formato</strong></label>
-              <label><input type="checkbox" name="formato" value="tutti"> Tutti</label>
-              <label><input type="checkbox" name="formato" value="video"> Video</label>
-              <label><input type="checkbox" name="formato" value="podcast"> Podcast</label>
-              <label><input type="checkbox" name="formato" value="libro"> Libro</label>
-              <label><input type="checkbox" name="formato" value="fumetto"> Fumetto</label>
-              <label><input type="checkbox" name="formato" value="immagine"> Immagine</label>
-              <label><input type="checkbox" name="formato" value="attività"> Attività</label>
+            <button class="dropdown-btn">🌍 Lingua ▾</button>
+            <div class="dropdown-container">
+                  <label><input type="checkbox" name="lingua" value="italiano"> Italiano</label>
+                  <label><input type="checkbox" name="lingua" value="inglese"> Inglese</label>
+                  <label><input type="checkbox" name="lingua" value="spagnolo"> Spagnolo</label>
+                  <label><input type="checkbox" name="lingua" value="portoghese"> Portoghese</label>
+                  <label><input type="checkbox" name="lingua" value="francese"> Francese</label>
+            </div>
 
-              <label><strong>🧒 Fascia d’età</strong></label>
-              <label><input type="checkbox" name="eta" value="tutte"> Tutte</label>
-              <label><input type="checkbox" name="eta" value="infanzia"> Infanzia</label>
-              <label><input type="checkbox" name="eta" value="primaria"> Primaria</label>
-              <label><input type="checkbox" name="eta" value="secondaria"> Secondaria</label>
-              <label><input type="checkbox" name="eta" value="giovani"> Giovani adult3</label>
-              <label><input type="checkbox" name="eta" value="adulti"> Adult3</label>
+            <button class="dropdown-btn">🧒 Fascia d’età ▾</button>
+            <div class="dropdown-container">
+                  <label><input type="checkbox" name="eta" value="infanzia"> Infanzia (0–5)</label>
+                  <label><input type="checkbox" name="eta" value="primaria"> Primaria (6–10)</label>
+                  <label><input type="checkbox" name="eta" value="secondariaI"> Secondaria I° (11–13)</label>
+                  <label><input type="checkbox" name="eta" value="secondariaII"> Secondaria II°</label>
+                  <label><input type="checkbox" name="eta" value="giovani"> Giovani adult3</label>
+                  <label><input type="checkbox" name="eta" value="adulti"> Adult3 (26+)</label>
+            </div>
 
-              <label><strong>🌍 Lingua</strong></label>
-              <label><input type="checkbox" name="lingua" value="tutte"> Tutte</label>
-              <label><input type="checkbox" name="lingua" value="italiano"> Italiano</label>
-              <label><input type="checkbox" name="lingua" value="inglese"> Inglese</label>
-              <label><input type="checkbox" name="lingua" value="spagnolo"> Spagnolo</label>
-              <label><input type="checkbox" name="lingua" value="portoghese"> Portoghese</label>
-              <label><input type="checkbox" name="lingua" value="francese"> Francese</label>
+             <button class="dropdown-btn">🤝 Gruppo/Associazione ▾</button>
+             <div class="dropdown-container">
+                  <label><input type="checkbox" name="gruppo" value="queerhub"> QueerHub</label>
+                  <label><input type="checkbox" name="gruppo" value="amnesty"> Amnesty Edu</label>
+                  <label><input type="checkbox" name="gruppo" value="fuoriluogo"> FuoriLuogo</label>
+                  <!-- Aggiungere altri gruppi reti dalla lista -->
+            </div>
 
-              <label><strong>🏷️ Tematiche</strong></label>
-              <label><input type="checkbox" name="tema" value="tutte"> Tutte</label>
-              <label><input type="checkbox" name="tema" value="consenso"> Consenso</label>
-              <label><input type="checkbox" name="tema" value="identita"> Identità e orientamento</label>
-              <label><input type="checkbox" name="tema" value="corpo"> Corpo e sessualità</label>
-              <label><input type="checkbox" name="tema" value="relazioni"> Relazioni</label>
-              <label><input type="checkbox" name="tema" value="linguaggio"> Linguaggio inclusivo</label>
-              <label><input type="checkbox" name="tema" value="intersezionalita"> Intersezionalità</label>
-            </form>
-          </aside>
+          <button class="dropdown-btn">🏷️ Tematica ▾</button>
+            <div class="dropdown-container">
+                  <label><input type="checkbox" name="tema" value="identita"> Identità di genere e stereotipi</label>
+                  <label><input type="checkbox" name="tema" value="corpo"> Corpo</label>
+                  <label><input type="checkbox" name="tema" value="orientamento"> Orientamento sessuale</label>
+                  <label><input type="checkbox" name="tema" value="salute"> Salute</label>
+                  <label><input type="checkbox" name="tema" value="linguaggio"> Linguaggio</label>
+                  <label><input type="checkbox" name="tema" value="violenza"> Violenza di genere</label>
+                  <label><input type="checkbox" name="tema" value="parenting"> Parenting</label>
+                  <label><input type="checkbox" name="tema" value="maschilita"> Maschilità</label>
+                  <label><input type="checkbox" name="tema" value="intersezionalita"> Intersezionalità</label>
+                  <label><input type="checkbox" name="tema" value="pedagogia"> Pedagogia</label>
+                  <label><input type="checkbox" name="tema" value="politiche"> Politiche europee</label>
+           </div>
+         </aside>
+
 
           <!-- GRIGLIA CARD MATERIALI -->
           <div class="griglia-materiali">
