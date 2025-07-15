@@ -472,7 +472,7 @@ a.text-br-link:hover {
   line-height: 1.7;
 }
 
-.container_section.materiali {
+.container-section-materiali {
   display: block; 
   max-width: 1100px;
   margin: 0 auto;
@@ -616,7 +616,7 @@ a.text-br-link:hover {
 }
 
   /*BOX S sidebar specifica materiali*/
-.sidebar.materiali {
+.sidebar-materiali {
   flex: O 0 240px;
   max-width: 260px;
   background-color: #f6e1ee;
@@ -626,18 +626,18 @@ a.text-br-link:hover {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
 }
 
-.sidebar.materiali label {
+.sidebar-materiali label {
   margin-bottom: 0.4em;
   display: block;
   font-size: 0.95em;
 }
 
-.sidebar.materiali input[type="checkbox"] {
+.sidebar-materiali input[type="checkbox"] {
   margin-right: 0.4em;
 }
 
 /* box L materiali */
-.boxL.materiali {
+.boxL-materiali {
   display: flex;
   flex-wrap: nowrap;
   align-items: flex-start;
@@ -679,7 +679,7 @@ a.text-br-link:hover {
 }
 
 /* Contenitore -griglia card materiali */
-.griglia.materiali {
+.griglia-materiali {
   flex: 1 1 auto; 
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
@@ -691,7 +691,7 @@ a.text-br-link:hover {
 ------------------------------ */
  
 /*card materiali*/
-.card.materiali {
+.card-materiali {
   background-color: #d7d2e7;
   border-radius: 12px;
   padding: 1.2em;
@@ -703,20 +703,20 @@ a.text-br-link:hover {
   flex: 1 1 300px;
 }
 
-.card.materiali img {
+.card-materiali img {
   width: 100%;
   height: auto;
   border-radius: 8px;
   margin-bottom: 0.8em;
 }
 
-.card.materiali h3 {
+.card-materiali h3 {
   font-size: 1.2em;
   margin-bottom: 0.5em;
   color: #6f5aa7;
 }
 
-.card.materiali p {
+.card-materiali p {
   font-size: 0.95em;
   line-height: 1.4;
 }
