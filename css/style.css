@@ -619,7 +619,7 @@ a.text-br-link:hover {
 .sidebar-materiali {
   flex: O 0 240px;
   max-width: 260px;
-  background-color: #e4dff1;
+  background-color: #fff0f7;
   padding: 1.5em;
   border-radius: 12px;
   border-left: none;
@@ -692,7 +692,7 @@ a.text-br-link:hover {
  
 /*card materiali*/
 .card-materiali {
-  background-color: #d7d2e7;
+  background-color: #fff0f7;
   border-radius: 12px;
   padding: 1.2em;
   margin-bottom: 2em;
