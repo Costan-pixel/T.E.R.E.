@@ -146,7 +146,32 @@
           </div> <!-- fine griglia -->
         </div> <!-- fine boxL -->
       </div> <!-- fine container -->
+
     </section>
   </main>
-</body>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025 TERE – Progetto universitario. Tutti i diritti riservati. Powered by transfeminist values.</p>
+  </footer>
+  
+ </body>
+  
+   <script>
+     // Trova tutti i bottoni con classe dropdown
+     var dropdowns = document.getElementsByClassName("dropdown-btn");
+
+     for (var i = 0; i < dropdowns.length; i++) {
+       dropdowns[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+  </script>
+
 </html>
