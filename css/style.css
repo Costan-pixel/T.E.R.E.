@@ -639,7 +639,8 @@ a.text-br-link:hover {
 /* box L materiali */
 .boxL.materiali {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
+  align-items: flex-start;
   gap: 2em;
   padding: 2em;
   background-color: #f6e1ee;
@@ -647,7 +648,6 @@ a.text-br-link:hover {
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
 }
-
 
 /* ------------------------------
        TABELLE e GRIGLIE
