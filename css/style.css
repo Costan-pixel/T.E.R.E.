@@ -732,15 +732,19 @@ a.text-br-link:hover {
  
 /*card materiali*/
 .card-materiali {
-  background-color: #d5bde3;
+  background-color: #d7d2e7;
   border-radius: 12px;
   padding: 1.2em;
   margin-bottom: 2em;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
   text-align: left;
-  max-width: 260px;
+  max-width: 280px;     
   width: 100%;
-  flex: 1 1 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 320px;    
+
 }
 
 .card-materiali img {
