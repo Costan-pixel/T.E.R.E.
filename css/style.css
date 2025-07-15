@@ -619,7 +619,7 @@ a.text-br-link:hover {
 
 
 /* ------------------------------
-            TABELLE 
+       TABELLE e GRIGLIE
 ------------------------------ */
 
 /*tabella associazioni*/
@@ -648,13 +648,12 @@ a.text-br-link:hover {
 }
 
 /* Contenitore -griglia card materiali */
-.materiali-lista {
-  display: flex;
-  flex-wrap: wrap;
+.materiali-griglia {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 2em;
-  justify-content: center;
+  flex: 3 1 700px;
 }
-
 
 
 /* ------------------------------
