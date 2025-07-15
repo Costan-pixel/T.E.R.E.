@@ -619,11 +619,11 @@ a.text-br-link:hover {
 .sidebar-materiali {
   flex: O 0 240px;
   max-width: 260px;
-  background-color: #f6e1ee;
+  background-color: #e4dff1;
   padding: 1.5em;
   border-radius: 12px;
-  border-left: 4px solid #6f5aa7;
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+  border-left: none;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.04);
 }
 
 .sidebar-materiali label {
