@@ -737,7 +737,7 @@ a.text-br-link:hover {
   background-color: #d7d2e7;
   border-radius: 12px;
   padding: 1.2em;
-  margin: 0;
+  margin: 0 0 0 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
   text-align: left;
   max-width: 280px;     
