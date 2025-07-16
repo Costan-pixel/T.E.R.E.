@@ -734,56 +734,42 @@ a.text-br-link:hover {
 }
 
 /* Box laterali S item Podcast Altre risorse*/
-.boxS-item {
-  margin-top: 2em;
+.boxS-item .blocco {
   margin-bottom: 2em;
-  flex: 0 0 18%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  gap: 1.5em;
-  min-height: 100%;
-}
-
-.boxS-item h3 {
-  font-size: 1.2em;
-  color: #6f5aa7;
-  text-align: center;
-  margin-bottom: 0.5em;
+  align-items: center;
 }
 
 .boxS-item img {
   width: 100%;
   max-width: 180px;
   display: block;
-  margin: 0 auto;
   border-radius: 10px;
-}
-
-.boxS-item p {
-  font-size: 0.95em;
-  line-height: 1.4;
-  margin: 0.4em 0 0.2em;
-  text-align: center;
-  color: #3a3a3a;
+  margin-bottom: 0.5em;
 }
 
 .boxS-item h4 {
   font-size: 1em;
   font-weight: bold;
-  margin-top: 0.3em;
-  margin-bottom: 0.2em;
-  text-align: center;
+  margin: 0.3em 0;
   color: #6f5aa7;
+  text-align: center;
+}
+
+.boxS-item p {
+  font-size: 0.9em;
+  margin: 0.2em 0;
+  text-align: center;
+  color: #3a3a3a;
 }
 
 .boxS-item a {
-  display: block;
   font-size: 0.9em;
+  margin-top: 0.2em;
   text-align: center;
   color: #6f5aa7;
   text-decoration: none;
-  margin-top: 0.2em;
 }
 
 .boxS-item a:hover {
