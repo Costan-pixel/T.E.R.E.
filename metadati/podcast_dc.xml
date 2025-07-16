@@ -25,7 +25,8 @@
 
   <dc:identifier>https://open.spotify.com/show/0hNDb230DBWPZx8oXCHX3H</dc:identifier> 
   <dc:source>Le Cœur sur la table (Binge Audio)</dc:source>
-  <dc:language>it</dc:language>        
+  <dc:language>it</dc:language>   
+  <!-- Nessuna informazione disponibile sui diritti d'autore o licenza -->
  
   <dc:relation>https://www.binge.audio/podcast/le-coeur-sur-la-table</dc:relation> 
   <dc:coverage>Italia</dc:coverage>
