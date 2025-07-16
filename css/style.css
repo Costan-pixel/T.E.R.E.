@@ -697,7 +697,43 @@ a.text-br-link:hover {
   margin-top: 0.5em;
 }
 
-/* Box laterali S item Podcast */
+/* Box laterali S item Podcast METADATI*/
+.boxS.metadati {
+  background-color: #f6e1ee;
+  border-left: 4px solid #6f5aa7;
+  padding: 2em 1.5em;
+  max-width: 280px;
+  min-height: 100%;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5em;
+}
+
+.boxS.metadati ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.boxS.metadati li {
+  margin-bottom: 0.6em;
+  line-height: 1.4;
+}
+
+.boxS.metadati a {
+  color: #6f5aa7;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+.boxS.metadati a:hover {
+  text-decoration: underline;
+}
+
+/* Box laterali S item Podcast Altre risorse*/
 .boxS-item {
   margin-top: 2em;
   margin-bottom: 2em;
