@@ -11,22 +11,22 @@
   <dc:contributor>Institut Français Italia</dc:contributor> 
   <dc:contributor>Lush Italia</dc:contributor>
   <dc:contributor>Produzioni dal Basso (crowdfunding)</dc:contributor> 
-  
+
+  <dc:subject>educazione sentimentale; relazioni; genere; amore; linguaggio</dc:subject>       
   <dc:description>
     Podcast che esplora l’educazione sentimentale, le relazioni, le emozioni, le norme di genere e il linguaggio dell’amore. 
     È la versione italiana adattata del podcast francese "Le Cœur sur la table" di Victoire Tuaillon.
   </dc:description> 
 
+  <dc:publisher>Storie Libere</dc:publisher>
   <dc:date>2024</dc:date> 
-  <dc:language>it</dc:language>
-  <dc:subject>educazione sentimentale; relazioni; genere; amore; linguaggio</dc:subject>
   <dc:type>Sound</dc:type>
   <dc:format>audio/mpeg</dc:format>
 
   <dc:identifier>https://open.spotify.com/show/0hNDb230DBWPZx8oXCHX3H</dc:identifier> 
   <dc:source>Le Cœur sur la table (Binge Audio)</dc:source>
-
-  <dc:publisher>Storie Libere</dc:publisher> 
+  <dc:language>it</dc:language>        
+ 
   <dc:relation>https://www.binge.audio/podcast/le-coeur-sur-la-table</dc:relation> 
   <dc:coverage>Italia</dc:coverage>
 
