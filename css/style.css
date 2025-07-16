@@ -752,6 +752,18 @@ a.text-br-link:hover {
 }
 
 /* Box laterali S item Podcast Altre risorse*/
+.boxS-item {
+  background-color: #f6e1ee;
+  padding: 2em 1.5em;
+  border-left: 4px solid #6f5aa7;
+  border-radius: 12px;
+  max-width: 280px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 1.8em;
+}
+
 .boxS-item .blocco {
   margin-bottom: 2em;
   display: flex;
