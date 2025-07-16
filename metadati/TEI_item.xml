@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Il cuore scoperto</title>
+        <author>Associazione Vanvera</author>
+        <respStmt>
+          <resp>Adattamento italiano e produzione</resp>
+          <name>Storie Libere</name>
+        </respStmt>
+        <respStmt>
+          <resp>Collaborazione</resp>
+          <name>Institut Français Italia</name>
+          <name>Lush Italia</name>
+          <name>Produzioni dal Basso</name>
+        </respStmt>
+      </titleStmt>
+
+      <publicationStmt>
+        <publisher>Storie Libere</publisher>
+        <pubPlace>Italia</pubPlace>
+        <date when="2024"/>
+        <idno type="URI">https://open.spotify.com/show/0hNDb230DBWPZx8oXCHX3H</idno>
+        <idno type="tere">tere-audio001</idno>
+        <availability>
+          <p>Informazioni sui diritti non disponibili. Si consiglia la consultazione responsabile per fini educativi e non commerciali.</p>
+        </availability>
+      </publicationStmt>
+
+      <sourceDesc>
+        <bibl>
+          <title>Le Cœur sur la table</title>
+          <author>Victoire Tuaillon</author>
+          <publisher>Binge Audio</publisher>
+          <ptr target="https://www.binge.audio/podcast/le-coeur-sur-la-table"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+
+    <profileDesc>
+      <langUsage>
+        <language ident="it">Italiano</language>
+      </langUsage>
+      <textClass>
+        <keywords scheme="tema">
+          <term>educazione sentimentale</term>
+          <term>relazioni</term>
+          <term>genere</term>
+          <term>amore</term>
+          <term>linguaggio</term>
+        </keywords>
+        <keywords scheme="pubblico">
+          <term>giovani adult3</term>
+          <term>adult3</term>
+        </keywords>
+        <keywords scheme="tipo">
+          <term>podcast</term>
+          <term>audio</term>
+        </keywords>
+        <keywords scheme="supporto">
+          <term>digitale</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+
+    <encodingDesc>
+      <projectDesc>
+        <p>File XML-TEI redatto nell’ambito del progetto universitario TERE – Transfeminist Education on Relationships and Emotions, per la descrizione di risorse audio rilevanti per l’educazione transfemminista e intersezionale.</p>
+      </projectDesc>
+      <samplingDecl>
+        <p>Il file descrive l’intera serie del podcast “Il cuore scoperto”, ma non include trascrizione testuale.</p>
+      </samplingDecl>
+      <editorialDecl>
+        <p>In futuro, si prevede l’aggiunta di trascrizioni parziali con marcatura di fenomeni linguistici e affettivi (es. lessico emotivo, ruoli relazionali, rappresentazioni di genere).</p>
+      </editorialDecl>
+    </encodingDesc>
+
+    <revisionDesc>
+      <change when="2025-07-16">Prima redazione del file per il sito TERE – progetto DH UniBo.</change>
+    </revisionDesc>
+  </teiHeader>
+
+  <text>
+    <body>
+      <p>Il podcast <hi>Il cuore scoperto</hi> è la versione italiana del podcast francese <hi>Le Cœur sur la table</hi>, prodotto da Associazione Vanvera con Storie Libere e altre realtà. Tratta temi legati all’educazione sentimentale, al linguaggio dell’amore, ai ruoli di genere e alle relazioni, da una prospettiva femminista e critica.</p>
+
+      <listPerson>
+        <person xml:id="tuaillon-v">
+          <persName>
+            <forename>Victoire</forename>
+            <surname>Tuaillon</surname>
+          </persName>
+          <note>Autrice del podcast originale francese "Le Cœur sur la table".</note>
+        </person>
+      </listPerson>
+    </body>
+  </text>
+</TEI>
