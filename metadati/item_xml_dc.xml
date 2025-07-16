@@ -1,18 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<record xmlns:dc="http://purl.org/dc/elements/1.1/">
-  <dc:title>Il cuore scoperto</dc:title>
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/"
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/simpledc20021212.xsd">
+  <dc:title>Il cuore scoperto – Podcast</dc:title>
   <dc:creator>Associazione Vanvera</dc:creator>
   <dc:contributor>Storie Libere</dc:contributor>
+  <dc:contributor>Institut Français Italia</dc:contributor>
+  <dc:contributor>Lush Italia</dc:contributor>
   <dc:publisher>Storie Libere</dc:publisher>
   <dc:date>2023</dc:date>
-  <dc:type>Audio</dc:type>
-  <dc:format>Podcast</dc:format>
+  <dc:type>Sound</dc:type>
+  <dc:format>Audio digitale</dc:format>
   <dc:language>it</dc:language>
   <dc:identifier>https://open.spotify.com/show/0hNDb230DBWPZx8oXCHX3H</dc:identifier>
-  <dc:source>Adattamento italiano del podcast francese "Le coeur sur la table"</dc:source>
-  <dc:description>Podcast in lingua italiana che affronta il tema delle relazioni affettive da una prospettiva transfemminista. Versione italiana del podcast francese "Le coeur sur la table" di Victoire Tuaillon. Attualmente composto da 8 episodi.</dc:description>
-  <dc:subject>affettività</dc:subject>
-  <dc:subject>identità di genere</dc:subject>
-  <dc:subject>relazioni</dc:subject>
-  <dc:rights>CC BY-NC-ND 4.0</dc:rights>
-</record>
+  <dc:source>https://linktr.ee/ilcuorescoperto</dc:source>
+  <dc:description>Adattamento italiano del podcast “Le cœur sur la table”, esplora affettività e relazioni in chiave transfemminista.</dc:description>
+  <dc:subject>Affettività; Relazioni; Genere; Sessualità</dc:subject>
+  <dc:coverage>Italia</dc:coverage>
+  <dc:rights>Creative Commons (CC BY-NC-ND)</dc:rights>
+</metadata>
