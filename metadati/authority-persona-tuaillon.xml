@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listPerson xmlns="http://www.tei-c.org/ns/1.0">
+  <person xml:id="tuaillon-v">
+    <persName>
+      <forename>Victoire</forename>
+      <surname>Tuaillon</surname>
+    </persName>
+    <sex>f</sex>
+    <affiliation>
+      <orgName>Binge Audio</orgName>
+    </affiliation>
+    <note>Giornalista e podcaster francese. Autrice del podcast femminista “Le Cœur sur la table”.</note>
+    <idno type="VIAF">5886158127391815150003</idno>
+    <idno type="ISNI">0000000494106905</idno>
+    <idno type="Wikidata">Q73152820</idno>
+  </person>
+</listPerson>
