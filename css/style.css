@@ -751,7 +751,7 @@ a.text-br-link:hover {
 }
 
 .boxS-item a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .boxS-item ul {
