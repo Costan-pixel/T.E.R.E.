@@ -712,25 +712,42 @@ a.text-br-link:hover {
   gap: 1.5em;
 }
 
-.boxS.metadati ul {
+.boxS.metadati h3 {
+  font-size: 1.2em;
+  color: #6f5aa7;
+  margin-top: 1em;
+  margin-bottom: 0.8em;
+  padding-top: 0.5em;
+  text-align: center;
+}
+
+/* Lista senza puntini */
+.boxS.metadati ul,
+.boxS.metadati li {
   list-style: none;
   padding-left: 0;
-  margin: 0;
+  margin-left: 0;
 }
 
-.boxS.metadati li {
-  list-style-type: none;
-  margin-bottom: 0.6em;
-  line-height: 1.4;
+/* Allineamento alto + interlinea */
+.boxS.metadati {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 
-.boxS.metadati a {
-  color: #6f5aa7;
-  font-size: 0.9em;
+.boxS.metadati ul {
+  margin-top: 0.5em;
+}
+
+.boxS.metadati li a {
+  line-height: 1.6;
   text-decoration: none;
+  color: #6f5aa7;
 }
 
-.boxS.metadati a:hover {
+.boxS.metadati li a:hover {
   text-decoration: underline;
 }
 
@@ -740,38 +757,38 @@ a.text-br-link:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .boxS-item img {
   display: block;
   margin: 0 auto 0.5em auto;
   width: 100%;
-  max-width: 160px;
+  max-width: 140px;
   border-radius: 10px;
 }
 
-.boxS-item h3,
-.boxS.metadati h3 {
+.boxS-item h3 {
   font-size: 1.2em;
   color: #6f5aa7;
   margin-top: 0.5em;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.5em;
   text-align: center;
 }
 
 .boxS-item p {
   font-size: 0.9em;
   margin: 0.2em 0;
-  text-align: center;
   color: #3a3a3a;
+  text-align: center;
 }
 
 .boxS-item a {
   font-size: 0.9em;
-  margin-top: 0.2em;
-  text-align: center;
   color: #6f5aa7;
   text-decoration: none;
+  text-align: center;
+  margin-top: 0.2em;
 }
 
 .boxS-item a:hover {
