@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" 
+          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation="http://purl.org/dc/elements/1.1/ 
+                              http://dublincore.org/schemas/xmls/qdc/2008/02/11/dc.xsd">
+
+  <dc:title>Il cuore scoperto</dc:title>
+
+  <dc:creator>Associazione Vanvera</dc:creator> 
+  <dc:contributor>Storie Libere</dc:contributor>
+  <dc:contributor>Institut Français Italia</dc:contributor> 
+  <dc:contributor>Lush Italia</dc:contributor>
+  <dc:contributor>Produzioni dal Basso (crowdfunding)</dc:contributor> 
+  
+  <dc:description>
+    Podcast che esplora l’educazione sentimentale, le relazioni, le emozioni, le norme di genere e il linguaggio dell’amore. 
+    È la versione italiana adattata del podcast francese "Le Cœur sur la table" di Victoire Tuaillon.
+  </dc:description> 
+
+  <dc:date>2024</dc:date> 
+  <dc:language>it</dc:language>
+  <dc:subject>educazione sentimentale; relazioni; genere; amore; linguaggio</dc:subject>
+  <dc:type>Sound</dc:type>
+  <dc:format>audio/mpeg</dc:format>
+
+  <dc:identifier>https://open.spotify.com/show/0hNDb230DBWPZx8oXCHX3H</dc:identifier> 
+  <dc:source>Le Cœur sur la table (Binge Audio)</dc:source>
+
+  <dc:publisher>Storie Libere</dc:publisher> 
+  <dc:relation>https://www.binge.audio/podcast/le-coeur-sur-la-table</dc:relation> 
+  <dc:coverage>Italia</dc:coverage>
+
+  <dc:extent>Attualmente 11 episodi di durata variabile tra 30 e 50 minuti; 1 trailer; 1 prologo; 1 epilogo; 2 bonus track</dc:extent>
+  <dc:audience>giovani adulti; adult3</dc:audience>
+
+</metadata>
