@@ -687,6 +687,7 @@ a.text-br-link:hover {
 
 /* Box laterali S item Podcast */
 .boxS-item {
+  background-color: #ddcafa; 
   flex: 0 0 18%;
   display: flex;
   flex-direction: column;
