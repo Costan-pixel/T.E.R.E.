@@ -680,6 +680,7 @@ a.text-br-link:hover {
   width: 100%;
   max-width: 500px;
   border-radius: 12px;
+  border: 2px border color: #3a3a3a;
   margin-bottom: 1em;
   margin-top: 0.5em;
 }
