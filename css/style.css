@@ -478,6 +478,18 @@ a.text-br-link:hover {
   margin left: 4px solid #6f5aa7;
 }
 
+/*Container pagina item podcast*/
+.container-section-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 2em;
+  padding: 2em 1.5em;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
+}
+
 /* ------------------------------
    SPACING (margini e padding generici)
 ------------------------------ */
@@ -656,6 +668,60 @@ a.text-br-link:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.06);
 }
 
+/* Box M pagina item Podcast */
+.boxM-item {
+  flex: 1 1 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.boxM-item img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+  margin-bottom: 1em;
+  margin-top: 0.5em;
+}
+
+/* Box laterali S item Podcast */
+.boxS-item {
+  flex: 0 0 18%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+}
+
+.boxS-item h3 {
+  font-size: 1.2em;
+  color: #6f5aa7;
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.boxS-item img {
+  width: 100%;
+  max-width: 180px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.boxS-item p, .boxS-item h4 {
+  font-size: 0.95em;
+  text-align: center;
+  margin-top: 0.5em;
+  color: #3a3a3a;
+}
+
+.boxS-item a {
+  display: block;
+  text-align: center;
+  margin-top: 0.2em;
+  color: #6f5aa7;
+  text-decoration: underline;
+}
+
 /* ------------------------------
              FILTRI
 ------------------------------ */
@@ -729,6 +795,31 @@ a.text-br-link:hover {
   align-items: stretch;
 }
 
+/*Tabella METADATI ITEM PODCAST*/
+
+.tabella-metadati {
+  width: 100%;
+  max-width: 600px;
+  border-collapse: collapse;
+  margin: 1em auto;
+  font-size: 0.95em;
+  background-color: #f9f3fc;
+  border: 1px solid #d2b8e4;
+  border-radius: 6px;
+}
+
+.tabella-metadati th,
+.tabella-metadati td {
+  border: 1px solid #d2b8e4;
+  padding: 0.6em;
+  text-align: left;
+}
+
+.tabella-metadati th {
+  background-color: #e9d5f8;
+  color: #3a3a3a;
+}
+
 /* ------------------------------
               CARD 
 ------------------------------ */
@@ -798,6 +889,23 @@ a.text-br-link:hover {
   .tabella-associazioni .riga {
     font-size: 0.9em;
     grid-template-columns: 1.8fr 1fr 2fr 0.5fr 0.5fr;
+  }
+}
+
+/* Responsive pag ITEM PODCAST */
+@media (max-width: 960px) {
+  .container-section-item {
+    flex-direction: column;
+  }
+  .boxS-item {
+    flex: 1 1 auto;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 2em;
+  }
+  .boxM-item {
+    width: 100%;
   }
 }
 
