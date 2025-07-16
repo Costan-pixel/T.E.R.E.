@@ -823,7 +823,7 @@ a.text-br-link:hover {
 
 .tabella-metadati {
   width: 100%;
-  max-width: 600px;
+  max-width: 500px;
   border-collapse: collapse;
   margin: 1em auto;
   font-size: 0.95em;
