@@ -1,64 +1,76 @@
-<!DOCTYPE html>
-<html lang="it">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>TERE – Transfeminist Education on Relationships and Emotions</title>
+# TERE – Transfeminist Education on Relationships and Emotions
 
-  <!-- Metadati Dublin Core -->
-  <meta name="DC.title" content="TERE – Transfeminist Education on Relationships and Emotions" />
-  <meta name="DC.creator" content="Costanza Citti" />
-  <meta name="DC.language" content="it" />
-  <meta name="DC.subject" content="Educazione sessuale, transfemminismo, emozioni, relazioni, diritti, studi di genere" />
-  <meta name="DC.description" content="Un archivio digitale e una piattaforma di risorse, progetti e iniziative sull’educazione sessuo-affettiva in chiave transfemminista in Europa." />
+## 🎯 Descrizione del progetto
 
-  <!-- Link al CSS -->
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <ul>
-      <li><a href="index.html">Home</a></li>
-      <li><a href="associazioni.html">Associazioni e Progetti</a></li>
-      <li><a href="materiali.html">Materiali e Risorse</a></li>
-      <li><a href="eventi.html">Eventi e Iniziative</a></li>
-      <li><a href="mappa.html">Mappe</a></li>
-      <li><a href="contribuisci.html">Contribuisci</a></li>
-    </ul>
-  </nav>
+**TERE** è un archivio digitale e una piattaforma collaborativa dedicata all’educazione sessuo-affettiva da una prospettiva **transfemminista e intersezionale**.  
+Il progetto nasce in ambito accademico (Digital Humanities – Università di Bologna) e si propone di **mappare**, **raccogliere** e **valorizzare** risorse educative e realtà attive a livello europeo.
 
-  <!-- Hero Image -->
-  <header class="hero">
-    <img src="https://i.pinimg.com/736x/f6/fb/0a/f6fb0ab7ecd1252fa67c58b2e9f65e58.jpg" alt="Hero image" />
-    <div class="hero-text">
-      <h1>TERE</h1>
-      <p>Transfeminist Education on Relationships and Emotions</p>
-    </div>
-  </header>
+---
 
-  <!-- Sezioni introduttive -->
-  <main class="intro">
-    <section>
-      <h2>Benvenut* su TERE</h2>
-      <p>Risorse, progetti e iniziative per un'educazione sessuo-affettiva transfemminista, inclusiva e intersezionale. Per chi educa, per chi lotta, per chi apprende. Sei dell3 nostr3?</p>
-    </section>
+## 💡 Obiettivi
 
-    <section>
-      <h2>Esplora</h2>
-      <p>Scopri collettivi, reti europee, materiali didattici e strumenti per trasformare l'educazione alla sessualità e alle relazioni.</p>
-      <ul>
-        <li><a href="associazioni.html">Associazioni e progetti</a></li>
-        <li><a href="materiali.html">Materiali e risorse</a></li>
-        <li><a href="eventi.html">Eventi e iniziative</a></li>
-        <li><a href="mappa.html">Mappa collaborativa</a></li>
-        <li><a href="contribuisci.html">Segnala un contenuto</a></li>
-      </ul>
-    </section>
-  </main>
+- Favorire l’accesso a contenuti inclusivi su corpi, relazioni e sessualità.
+- Documentare reti, associazioni e progetti esistenti.
+- Offrire strumenti per la **navigazione tematica** e l’implementazione partecipativa (funzione “Proponi”).
+- Applicare metodi e strumenti delle **Digital Humanities** in chiave transfemminista.
 
-  <footer>
-    <p>© 2025 TERE – Progetto universitario. Tutti i diritti riservati. Powered by transfeminist values.</p>
-  </footer>
-</body>
-</html>
+---
+
+## 🧱 Struttura del sito
+
+- `index.html`: Home
+- `ilprogetto_tere.html`: Il progetto e il linguaggio usato
+- `reti.html`: Reti, associazioni, collettivi
+- `materiali.html`: Archivio digitale filtrabile per tipologia, tema, lingua, ecc.
+- `item.html`: Scheda di dettaglio con metadati e collegamenti esterni
+- `mappe.html`: Visualizzazione geolocalizzata delle realtà censite
+- `proponi.html`: Form per inviare contributi e suggerimenti
+
+---
+
+## 🛠️ Tecnologie utilizzate
+
+- **HTML5 + CSS3**
+- **JavaScript vanilla**
+- Componenti **HowTo W3Schools** (dropdown sidebar, favicon, tab, responsive menu)
+- Integrazione futura: **Leaflet.js** per mappa interattiva
+- Metadati:
+  - HTML + Dublin Core
+  - OpenGraph (per anteprima social)
+  - XML DC (`/xml/item-dc.xml`)
+  - XML TEI (`/xml/item-tei.xml`)
+  - Authority file TEI (`/xml/authority.xml`)
+
+---
+
+## 📂 File e risorse strutturate
+
+- `/img/`: immagini del sito e materiali (anteprime)
+- `/css/style.css`: foglio di stile principale
+- `/xml/item-dc.xml`: metadati Dublin Core dell’item
+- `/xml/item-tei.xml`: metadati TEI dell’item
+- `/xml/authority.xml`: file authority (persona)
+- `README.md`: file di documentazione
+- `favicon.png`, `preview.jpg`
+
+---
+
+## 🔗 Accesso al sito
+
+Sito disponibile alla seguente URL:  
+👉 **[https://costan-pixel.github.io/T.E.R.E/](https://costan-pixel.github.io/T.E.R.E/)**
+
+---
+
+## 👩‍🎓 Autrice
+
+**Costanza Citti**  
+Esame di **Digital Humanities**, Prof.ssa **Francesca Tomasi**  
+Università di Bologna, 2025
+
+---
+
+## 📌 Licenza
+
+Progetto realizzato a scopo didattico. Alcune risorse sono protette da copyright e utilizzate solo per fini illustrativi.  
+La struttura e il codice del sito sono rilasciati con finalità di libera consultazione e studio.
