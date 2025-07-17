@@ -570,13 +570,11 @@ a.text-br-link:hover {
   gap: 2em;
   max-width: 1100px;
   margin: 0 auto;
-  align-items: flex-start;
+  align-items: stretch;
 }
 
 .associazioni-sidebar {
-  width: 250px;            
-  height: 100%;            
-  max-height: 1200px;         
+  width: 250px;                 
   flex-shrink: 0;            
   background-color: #f6e1ee;
   padding: 1.5em;
