@@ -43,8 +43,9 @@
 
   <main>
     <!-- Wrapper per sidebar + contenuto principale -->
-    <section class="section-base associazioni-section first-section">
+    <div class="section-base associazioni-section first-section">
       <div class="associazioni-container">
+
         <!-- Sidebar filtri -->
         <aside class="associazioni-sidebar">
           <h2>Filtra</h2>
@@ -58,37 +59,36 @@
             <option value="DE">Germania</option>
           </select>
 
-          <div class="filtro-lettere">
-          <label for="lettera">🔠 Iniziale:</label>
+          <div class="filtro-lettere" id="lettera">
+            <label for="lettera">🔠 Iniziale:</label>
             <div class="lettere">
               <a href="#A">A-B</a>
               <a href="#C">C-D</a>
               <a href="#E">E-F</a>
               <a href="#G">G-H</a>
-              <a href="#O">O-P</a>
-              <a href="#S">S-T</a>
+              <a href="#O1">O-P</a>
+              <a href="#S1">S-T</a>
             </div>
           </div>
 
-            <!-- Dropdown Tematica -->
-             <button class="dropdown-btn">🏷️ Tematica ▾</button>
-                <div class="dropdown-container">
-                    <label><input type="checkbox" name="tema" value="identita"> Identità di genere e stereotipi</label>
-                    <label><input type="checkbox" name="tema" value="consenso"> Consenso</label>
-                    <label><input type="checkbox" name="tema" value="corpo"> Corpo</label>
-                    <label><input type="checkbox" name="tema" value="orientamento sessuale"> Orientamento sessuale</label>
-                    <label><input type="checkbox" name="tema" value="affettivita"> Affettività e relazioni</label>
-                    <label><input type="checkbox" name="tema" value="salute"> Salute</label>
-                    <label><input type="checkbox" name="tema" value="linguaggio"> Linguaggio</label>
-                    <label><input type="checkbox" name="tema" value="violenza"> Violenza di genere</label>
-                    <label><input type="checkbox" name="tema" value="parenting"> Parenting</label>
-                    <label><input type="checkbox" name="tema" value="maschilita"> Maschilità</label>
-                    <label><input type="checkbox" name="tema" value="intersezionalita"> Intersezionalità</label>
-                    <label><input type="checkbox" name="tema" value="pedagogia"> Pedagogia</label>
-                    <label><input type="checkbox" name="tema" value="politiche"> Politiche europee</label>
-                 </div>
-            </div>
-        </aside> 
+          <!-- Dropdown Tematica -->
+          <button class="dropdown-btn">🏷️ Tematica ▾</button>
+          <div class="dropdown-container">
+            <label><input type="checkbox" name="tema" value="identita"> Identità di genere e stereotipi</label>
+            <label><input type="checkbox" name="tema" value="consenso"> Consenso</label>
+            <label><input type="checkbox" name="tema" value="corpo"> Corpo</label>
+            <label><input type="checkbox" name="tema" value="orientamento sessuale"> Orientamento sessuale</label>
+            <label><input type="checkbox" name="tema" value="affettivita"> Affettività e relazioni</label>
+            <label><input type="checkbox" name="tema" value="salute"> Salute</label>
+            <label><input type="checkbox" name="tema" value="linguaggio"> Linguaggio</label>
+            <label><input type="checkbox" name="tema" value="violenza"> Violenza di genere</label>
+            <label><input type="checkbox" name="tema" value="parenting"> Parenting</label>
+            <label><input type="checkbox" name="tema" value="maschilita"> Maschilità</label>
+            <label><input type="checkbox" name="tema" value="intersezionalita"> Intersezionalità</label>
+            <label><input type="checkbox" name="tema" value="pedagogia"> Pedagogia</label>
+            <label><input type="checkbox" name="tema" value="politiche"> Politiche europee</label>
+          </div>
+        </aside>
 
         <!-- Lista associazioni, gruppi, collettivi... -->
         <section class="box-M first-section">
@@ -136,7 +136,7 @@
             </div>
 
             <!-- OuTrans -->
-            <div class="riga" id="O">
+            <div class="riga" id="O1">
               <div>OuTrans</div>
               <div>Francia</div>
               <div>🏷️ Identità di genere; 🏷️ Corpo; 🏷️ Salute </div>
@@ -145,7 +145,7 @@
             </div>
 
             <!-- OII Europe -->
-            <div class="riga" id="O">
+            <div class="riga" id="O2">
               <div>OII Europe</div>
               <div>Germania</div>
               <div>Intersex; 🏷️ Politiche europee</div>
@@ -154,7 +154,7 @@
             </div>
 
             <!-- Scosse -->
-            <div class="riga" id="S">
+            <div class="riga" id="S1">
               <div>Scosse</div>
               <div>Italia</div>
               <div>🏷️ Corpo; 🏷️ Identità di genere </div>
@@ -163,17 +163,19 @@
             </div>
 
             <!-- Sexual Wellbeing - HSE -->
-            <div class="riga" id="S">
+            <div class="riga" id="S2">
               <div>Sexual Wellbeing – HSE</div>
               <div>Irlanda</div>
               <div>🏷️ Salute</div>
               <div><a href="https://www.sexualwellbeing.ie/" target="_blank">🌐</a></div>
               <div><a href="mappe.html#hse">🗺️</a></div>
             </div>
-          </div>
+
+          </div> <!-- fine tabella -->
         </section>
+
       </div>
-    </section>
+    </div>
   </main>
 
   <!-- Footer -->
@@ -199,4 +201,3 @@
 
 </body>
 </html>
-
