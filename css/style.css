@@ -573,7 +573,6 @@ a.text-br-link:hover {
   align-items: flex-start;
 }
 
-
 .associazioni-sidebar {
   width: 250px;            
   height: 100%;            
@@ -583,7 +582,6 @@ a.text-br-link:hover {
   padding: 1.5em;
   border-radius: 12px;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.05);
-  position: sticky;
   top: 120px;
 }
 
