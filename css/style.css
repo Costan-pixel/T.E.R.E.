@@ -716,17 +716,29 @@ a.text-br-link:hover {
   font-size: 1.2em;
   color: #6f5aa7;
   margin-top: 1em;
-  margin-bottom: 0.8em;
-  padding-top: 0.5em;
+  margin-bottom: 1em;
+  padding-top: 1em;
   text-align: center;
 }
 
-/* Lista senza puntini */
 .boxS.metadati ul,
 .boxS.metadati li {
-  list-style: none;
-  padding-left: 0;
-  margin-left: 0;
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.boxS.metadati li a {
+  line-height: 1.6;
+  text-decoration: none;
+  color: #6f5aa7;
+  display: block;
+  margin-bottom: 0.3em;
+  text-align: left;
+}
+
+.boxS.metadati li a:hover {
+  text-decoration: underline;
 }
 
 /* Allineamento alto + interlinea */
