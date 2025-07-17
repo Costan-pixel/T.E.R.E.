@@ -49,9 +49,6 @@
         <aside class="associazioni-sidebar">
           <h2>Filtra</h2>
 
-          <label for="search">🔍 Cerca:</label>
-          <input type="text" id="search" name="search" aria-label="Cerca associazione per nome" />
-
           <label for="paese">🌍 Paese:</label>
           <select id="paese" name="paese">
             <option value="">Tutti</option>
@@ -72,7 +69,26 @@
               <a href="#S">S-T</a>
             </div>
           </div>
-         </aside> 
+
+            <!-- Dropdown Tematica -->
+             <button class="dropdown-btn">🏷️ Tematica ▾</button>
+                <div class="dropdown-container">
+                    <label><input type="checkbox" name="tema" value="identita"> Identità di genere e stereotipi</label>
+                    <label><input type="checkbox" name="tema" value="consenso"> Consenso</label>
+                    <label><input type="checkbox" name="tema" value="corpo"> Corpo</label>
+                    <label><input type="checkbox" name="tema" value="orientamento sessuale"> Orientamento sessuale</label>
+                    <label><input type="checkbox" name="tema" value="affettivita"> Affettività e relazioni</label>
+                    <label><input type="checkbox" name="tema" value="salute"> Salute</label>
+                    <label><input type="checkbox" name="tema" value="linguaggio"> Linguaggio</label>
+                    <label><input type="checkbox" name="tema" value="violenza"> Violenza di genere</label>
+                    <label><input type="checkbox" name="tema" value="parenting"> Parenting</label>
+                    <label><input type="checkbox" name="tema" value="maschilita"> Maschilità</label>
+                    <label><input type="checkbox" name="tema" value="intersezionalita"> Intersezionalità</label>
+                    <label><input type="checkbox" name="tema" value="pedagogia"> Pedagogia</label>
+                    <label><input type="checkbox" name="tema" value="politiche"> Politiche europee</label>
+                 </div>
+            </div>
+        </aside> 
 
         <!-- Lista associazioni, gruppi, collettivi... -->
         <section class="box-M first-section">
