@@ -180,6 +180,23 @@
   <footer>
     <p>© 2025 TERE – Progetto universitario. Powered by transfeminist values.</p>
   </footer>
+
+<script>
+  // Attiva/disattiva i dropdown
+  const dropdowns = document.querySelectorAll(".dropdown-btn");
+  dropdowns.forEach((btn) => {
+    btn.addEventListener("click", function () {
+      this.classList.toggle("active");
+      const dropdownContent = this.nextElementSibling;
+      if (dropdownContent.style.display === "block") {
+        dropdownContent.style.display = "none";
+      } else {
+        dropdownContent.style.display = "block";
+      }
+    });
+  });
+</script>
+
 </body>
 </html>
 
