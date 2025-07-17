@@ -1,13 +1,13 @@
 # TERE – Transfeminist Education on Relationships and Emotions
 
-## 🎯 Descrizione del progetto
+##  Descrizione del progetto
 
 **TERE** è un archivio digitale e una piattaforma collaborativa dedicata all’educazione sessuo-affettiva da una prospettiva **transfemminista e intersezionale**.  
 Il progetto nasce in ambito accademico (Digital Humanities – Università di Bologna) e si propone di **mappare**, **raccogliere** e **valorizzare** risorse educative e realtà attive a livello europeo.
 
 ---
 
-## 💡 Obiettivi
+##  Obiettivi
 
 - Favorire l’accesso a contenuti inclusivi su corpi, relazioni e sessualità.
 - Documentare reti, associazioni e progetti esistenti.
@@ -16,7 +16,7 @@ Il progetto nasce in ambito accademico (Digital Humanities – Università di Bo
 
 ---
 
-## 🧱 Struttura del sito
+## Struttura del sito
 
 - `index.html`: Home
 - `ilprogetto_tere.html`: Il progetto e il linguaggio usato
@@ -28,7 +28,7 @@ Il progetto nasce in ambito accademico (Digital Humanities – Università di Bo
 
 ---
 
-## 🛠️ Tecnologie utilizzate
+##  Tecnologie utilizzate
 
 - **HTML5 + CSS3**
 - **JavaScript vanilla**
@@ -43,7 +43,7 @@ Il progetto nasce in ambito accademico (Digital Humanities – Università di Bo
 
 ---
 
-## 📂 File e risorse strutturate
+## File e risorse strutturate
 
 - `/img/`: immagini del sito e materiali (anteprime)
 - `/css/style.css`: foglio di stile principale
@@ -58,11 +58,11 @@ Il progetto nasce in ambito accademico (Digital Humanities – Università di Bo
 ## 🔗 Accesso al sito
 
 Sito disponibile alla seguente URL:  
-👉 **[https://costan-pixel.github.io/T.E.R.E/](https://costan-pixel.github.io/T.E.R.E/)**
+ **[https://costan-pixel.github.io/T.E.R.E/](https://costan-pixel.github.io/T.E.R.E/)**
 
 ---
 
-## 👩‍🎓 Autrice
+##  Autrice
 
 **Costanza Citti**  
 Esame di **Digital Humanities**, Prof.ssa **Francesca Tomasi**  
@@ -70,7 +70,7 @@ Università di Bologna, 2025
 
 ---
 
-## 📌 Licenza
+##  Licenza
 
 Progetto realizzato a scopo didattico. Alcune risorse sono protette da copyright e utilizzate solo per fini illustrativi.  
 La struttura e il codice del sito sono rilasciati con finalità di libera consultazione e studio.
